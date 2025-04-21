@@ -1,0 +1,191 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-secondary-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-car-inspection-approved-en-20230120.jpg" alt="Thank you for trusting Roojai in protecting your car" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row class="collapse">
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Thank you for trusting Roojai in protecting your car
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="16"></spacer>
+
+        <p class="text-center">
+          Customer's Detail:
+
+          <br>
+
+          <strong>
+            Name: {customer_name}
+          </strong><br>
+
+          <strong>
+            Email: {customer_email}
+          </strong>
+
+          <!-- Scenario: customer phone number -->
+          <br>
+
+          <strong>
+            Phone Number: {customer_phone_number}
+          </strong>
+
+          <br />
+        </p>
+
+        <spacer size="19"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p class="text-secondary">
+        <strong>
+          Hi <strong>{first_name}</strong>,
+        </strong>
+      </p>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- Scenario: if the car inspection was done within policy period -->
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        Thank you for completing your car inspection with Roojai. Your car insurance with policy number <strong>{policy_number}</strong> is active starting from <strong>{start_date}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <ol class="custom-bullet">
+        <li class="text-secondary" style="margin-bottom: 10px">
+          Access your insurance policy in MyAccount at anytime and anywhere for 24/7. If you have just activated your account, your insurance policy will be accessible in MyAccount within 15 minutes.
+        </li>
+
+        <li class="text-secondary" style="margin-bottom: 10px">
+          If you choose the policy in hardcopy, we will send the policy documents within <strong>10 working days</strong>.
+        </li>
+      </ol>
+
+      <spacer size="6"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+<!-- Scenario: if the car inspection was done within policy period -->
+
+<!-- Scenario: if the car inspection was done before policy period -->
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        Thank you for doing car inspection with Roojai. As requested, your car insurance with policy number <strong>{policy_number}</strong> will be activated on <strong>{start_date}</strong>. 
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <ol class="custom-bullet">
+        <li class="text-secondary" style="margin-bottom: 10px">
+          Access your insurance policy in MyAccount at anytime and anywhere for 24/7. If you have just activated your account, your insurance policy will be accessible in MyAccount within 15 minutes.
+        </li>
+
+        <li class="text-secondary" style="margin-bottom: 10px">
+          If you choose the policy in hardcopy, we will send the policy documents within <strong>10 working days</strong>.
+        </li>
+      </ol>
+
+      <spacer size="6"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+<!-- Scenario: if the car inspection was done before policy period -->
+
+<!-- Scenario: if the customer is eligible for Roojai Rewards -->
+<!-- roojai points reward  -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="4"></spacer>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row>
+    <columns>
+      <button class="points-reward">
+        <spacer size="11"></spacer>
+
+        <p>
+          Congrats! You also earned <strong>{reward_points}</strong> of Roojai Rewards points which you can redeem for a Tokopedia or Pertamina voucher. Our team will be contacting you to confirm the voucher delivery information.
+        </p>
+
+        <spacer size="6"></spacer>
+      </button>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="53"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- roojai points reward  -->
+<!-- Scenario: if the customer is eligible for Roojai Rewards -->
+
+{{> footer-agent-empty-en}}

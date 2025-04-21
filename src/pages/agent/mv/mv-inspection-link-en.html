@@ -1,0 +1,87 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-collection-id-20230120.jpg" alt="Find your video call link here!" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="16"></spacer>
+
+        <p class="text-center">
+          Customer's Detail:
+
+          <br>
+
+          <strong>
+            Name: {customer_name}
+          </strong><br>
+
+          <strong>
+            Email: {customer_email}
+          </strong>
+
+          <!-- Scenario: customer phone number -->
+          <br>
+
+          <strong>
+            Phone Number: {customer_phone_number}
+          </strong>
+
+          <br />
+        </p>
+
+        <spacer size="19"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hi,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Thank you for taking the time to do video call with us. Here is your link to begin the video call session: <a href="{video_call_link}" target="_blank">{video_call_link}</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-agent-empty-en}}

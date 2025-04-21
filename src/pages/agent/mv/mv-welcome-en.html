@@ -1,0 +1,216 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id asuransi online" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-welcome-id-20230120.jpg" alt="Welcome to Roojai! " />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row class="collapse">
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Welcome to Roojai!
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="19"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="16"></spacer>
+
+        <p class="text-center">
+          Customer's Detail:
+
+          <br>
+
+          <strong>
+
+            Name: {customer_name}
+
+          </strong>
+
+          <br />
+
+          <strong>
+
+            Email: {customer_email}
+
+          </strong>
+
+          <!-- Scenario: customer phone number -->
+          <br>
+
+          <strong>
+
+            Phone Number: {customer_phone_number}
+
+          </strong>
+        </p>
+
+        <spacer size="19"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p class="text-secondary">
+        <strong>
+          Hi <strong>{first_name}</strong>,
+        </strong>
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-secondary">
+        Thank you for trusting Roojai in providing you with your protection needs. We’ve received your premium payment of <strong>IDR {first_paid_premium}</strong>. The coverage period you’ve requested begins on <strong>{start_date}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p class="text-secondary">
+        You can check your payment detail on <a href="https://myaccount.roojai.co.id" target="_blank" class="text-primary"><strong>MyAccount</strong></a>. 
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p class="text-secondary">
+        Also, please ensure you have provided the additional information <a href="{link_to_pd2}" target="_blank" class="text-primary"><strong>here</strong></a> in order to proceed with your car inspection so that your policy can be activated. 
+      </p>
+
+      <spacer size="20"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- promotions -->
+<container>
+  <row>
+    <columns>
+      <button class="points-reward">
+        <spacer size="11"></spacer>
+
+        <h3>
+          Roojai Rewards
+        </h3>
+
+        <spacer size="11"></spacer>
+        
+        <p>
+          Receive <strong>{reward_points}</strong> Roojai Rewards points valued at IDR <strong>{reward_value}</strong><span class="text-primary">*</span> once your policy has been activated! Redeem your points for Tokopedia and Pertamina vouchers.
+        </p>
+
+        <spacer size="11"></spacer>
+
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/body-voucher-pertamina-tokopedia-20230223.jpg" alt="Redeem your points for Tokopedia and Pertamina vouchers" />
+
+        <spacer size="11"></spacer>
+
+        <p>
+          <small>
+            <em class="text-secondary">
+              <span class="text-primary">*</span>Roojai Rewards points will be awarded once full payment has been received and your policy has been activated. If you are on an instalment plan, the points will be awarded once you have completed all 6 payments.
+            </em>
+          </small>
+        </p>
+
+        <spacer size="10"></spacer>
+      </button>
+    </columns>
+  </row>
+</container>
+<!-- promotions -->
+
+<!-- information -->
+<container>
+  <row>
+    <columns small="12">
+      <spacer size="26"></spacer>
+
+      <p class="text-secondary">
+        If you have any questions or need further information, please contact your agent.
+      </p>
+
+    </columns>
+  </row>
+
+  <spacer size="42"></spacer>
+</container>
+<!-- information -->
+
+<!-- myaccount icon -->
+<container>
+  <row>
+    <columnss small="12">
+      <center>
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/icon-my-account.png" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:auto!important;max-width:100%;outline:0;text-decoration:none;width:auto" />
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="26"></spacer>
+
+  <row>
+    <columns small="12">
+      <p class="text-center text-secondary">
+        You can see your policy, payment receipt, premium bills, and other important documents online through <a href="https://myaccount.roojai.co.id" target="_blank" class="text-primary"><strong>MyAccount</strong></a>.
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="26"></spacer>
+
+  <row>
+    <columns small="12">
+      <center>
+        <button href="https://myaccount.roojai.co.id" class="primary large radius" align="center">
+          Go To MyAccount
+        </button>
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="64"></spacer>
+</container>
+<!-- myaccount icon -->
+
+{{> footer-agent-empty-en}}

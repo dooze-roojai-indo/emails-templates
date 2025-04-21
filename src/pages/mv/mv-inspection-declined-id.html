@@ -1,0 +1,358 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-car-inspection-declined-en-20230120.jpg" alt="Maaf, permohonan polis asuransimu tidak dapat dilanjutkan" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Maaf, permohonan polis asuransimu tidak dapat dilanjutkan
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Terima kasih atas antusiasmu dalam memberikan proteksi untuk mobilmu bersama Roojai. Namun, berdasarkan hasil inspeksi mobil yang telah dilakukan melalui video call, kami ingin menginformasikan bahwa permohonan asuransi mobilmu <strong>tidak dapat dilanjutkan</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Kamu bisa cek detail laporan hasil inspeksi mobil di bawah ini.
+      </p>
+
+      <spacer size="26"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- inspection result -->
+<!-- insured vehicle -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Kendaraan Tertanggung
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Merk &amp; Tipe Kendaraan 
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {brand} {car_type}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Nomor Polisi
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {lincense_plate_number}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Nomor Rangka
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {chasis_number}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Penggunaan Kendaraan 
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {vehicle_use}
+            </strong>
+          </p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="24"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- insured vehicle -->
+
+<!-- details of inspection -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Keterangan Inspeksi
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Tanggal Inspeksi 
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {date_of_inspection}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Metode Inspeksi  
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {method_of_inspection}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Lokasi Perjanjian   
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {appointment_place}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Odometer  
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {odometer}
+            </strong>
+          </p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="24"></spacer>
+    </column>
+  </row>
+</container>
+<!-- details of inspection -->
+
+<!-- pre-existing damages -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Kerusakan yang Sudah Ada
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="12" large="4">
+          <p>
+            Kerusakan
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            Posisi Kerusakan
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            Tingkat Kerusakan
+          </p>
+        </columns>
+      </row>
+
+      <!-- repeat -->
+      <row class="inspection-row">
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage}
+            </strong>
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage_position}
+            </strong>
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage_level}
+            </strong>
+          </p>
+        </columns>
+      </row>
+      <!-- repeat -->
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="14"></spacer>
+
+      <p>
+        <em class="text-secondary">
+          Kerusakan yang sudah ada seperti tertera di atas tidak dijamin. 
+        </em>
+      </p>
+
+      <spacer size="40"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- pre-existing damages -->
+<!-- inspection result -->
+
+<!-- Scenario: payment with credit card -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Premi yang telah kamu bayarkan sebesar <strong>Rp{payment_amount}</strong> akan dikembalikan ke kartu kreditmu maksimal dalam 2 hari kerja.
+      </p>
+      
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: payment with credit card -->
+
+<!-- Scenario: payment with va/debit card -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Tim contact center kami akan segera menghubungimu untuk konfirmasi nomor rekeningmu. Pengembalian premi yang sudah dibayarkan sebesar <strong>Rp{payment_amount}</strong> akan dilakukan maks. 2 hari kerja setelah nomor rekening dikonfirmasi.
+      </p>
+
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: payment with va/debit card -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Jika memiliki pertanyaan atau membutuhkan informasi lebih lanjut, silakan hubungi kami di <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="59"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-id}}

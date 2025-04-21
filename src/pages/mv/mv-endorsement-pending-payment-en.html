@@ -1,0 +1,114 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-endorsement-success-en-20240130.jpg" alt="Thank you for trusting Roojai for your car protection" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Thank you for trusting Roojai
+
+          <br />
+
+          for your car protection
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hi <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        We have received your request to change the following information on your car insurance policy, namely:
+      </p>
+
+      <spacer size="22"></spacer>
+
+      <ul>
+        <li style="margin-bottom:8px">
+          <strong>{amended_information}</strong>
+        </li>
+      </ul>
+
+      <spacer size="22"></spacer>
+
+      <p>
+        This change affects your premium, so you need to pay an additional premium worth <strong>IDR {additional_price}</strong>. 
+      </p>
+
+      <p>
+        Because you choose instalment payments, there will be a price adjustment. The total instalment amount going forward will therefore be <strong>IDR {current_premium_plus_additional_monthly_premium}</strong>/month.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        The change you requested will be effective in 1x24 hours. You can check your insurance policy updates via <a href="https://myaccount.roojai.co.id/" target="_blank">MyAccount</a>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        If you need assistance or further information, please contact us at <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-en}}

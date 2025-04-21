@@ -1,0 +1,141 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-welcome-id-20230120.jpg" alt="Thank you for entrusting us again!" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row class="collapse">
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Thank you for entrusting us again!
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- policy number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <spacer size="16"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- policy number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p class="text-secondary">
+        <strong>
+          Hi <strong>{first_name}</strong>,
+        </strong>
+      </p>
+
+      <p class="text-secondary">
+        Thank you for renewing your Comprehensive Car Insurance with Roojai. We’ve received your premium payment of <strong>IDR {first_paid_premium}</strong> and your insurance policy has been activated. The coverage period begins on <strong>{start_date}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p class="text-secondary">
+        You can check your payment detail on <a href="https://myaccount.roojai.co.id" target="_blank">MyAccount</a>.
+      </p>
+
+      <spacer size="43"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- roojai rewards -->
+<container>
+  <row>
+    <columns>
+      <callout class="points-reward">
+        <spacer size="11"></spacer>
+
+        <h3>
+          Roojai Rewards
+        </h3>
+
+        <spacer size="10"></spacer>
+
+        <p>
+          Congrats! You received <strong>{reward_points}</strong> Roojai Rewards points valued at <strong>IDR {amount}</strong>! Redeem your points for Tokopedia or Pertamina vouchers.
+        </p>
+
+        <spacer size="20"></spacer>
+
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/body-voucher-pertamina-tokopedia-20230223.jpg" alt="Tukarkan poinnya untuk voucher Tokopedia & Pertamina" />
+
+        <spacer size="20"></spacer>
+
+        <p>
+          <small>
+            <em class="text-secondary">
+              * Roojai Rewards points will be awarded once full payment has been received and your policy has been activated. If you are on an instalment plan, the points will be awarded once you have completed all 6 payments.
+            </em>
+          </small>
+        </p>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- roojai rewards -->
+
+<!-- information -->
+<container>
+  <row>
+    <columns small="12">
+      <spacer size="46"></spacer>
+
+      <p class="text-secondary">
+        Thanks again! If you have any questions or need further information, please contact us at <a href="tel:02150890821" class="text-primary">021 5089 0821</a>.
+      </p>
+
+    </columns>
+  </row>
+
+  <spacer size="59"></spacer>
+</container>
+<!-- information -->
+
+{{> footer-en}}

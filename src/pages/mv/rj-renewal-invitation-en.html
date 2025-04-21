@@ -1,0 +1,254 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/mv/renewal-reminder-en-202412051820.jpg" alt="Keep your car protected by renewing your insurance policy now" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Keep your car protected by<br />renewing your insurance policy now
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- policy number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Renewal Quotation Number
+          </strong>
+        </p>
+
+        <spacer size="16"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {renewalQuotationNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- policy number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p class="text-secondary">
+        <strong>
+          Hi <strong>{fullName}</strong>, 
+        </strong>
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-secondary">
+        Your car insurance policy with policy number <strong>{policyNumber}</strong> will expire on <strong>{endDate}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p class="text-secondary">
+        But don't worry, you can already renew your policy starting today by clicking the button below. It only takes 5 minutes, and your insurance policy will automatically be renewed for the next year!
+      </p>
+
+      <spacer size="20"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- Scenario: customer car is over 8 years old and registered as 'authorized garage' user -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="23"></spacer>
+
+      <callout class="gray">
+        <spacer size="11"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Important Information Regarding Your Garage Network
+          </strong>
+        </p>
+
+        <p class="text-center">
+          As per our current terms and conditions, dealer garage option is available for cars up to 8 years old. If your car was previously registered for repair at dealer garages, you will be switched to regular preferred garage at the time of this renewal. 
+        </p>
+      </callout>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: customer car is over 8 years old and registered as 'authorized garage' user -->
+
+<!-- CTA -->
+<container>
+  <row>
+    <columns small="12">
+      <spacer size="39"></spacer>
+
+      <center>
+        <button href="#" class="primary large radius text-center" align="center">
+          <span class="text-center">
+            Renew Policy Now!
+          </span>
+        </button>
+      </center>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- CTA -->
+
+<!-- Scenario: customer eligible for instalment -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary">
+        <strong>
+          Instalment Option
+        </strong>
+      </h3>
+
+      <p>
+        Easily manage your expense with 6x instalments
+
+        <br />
+
+        <strong>IDR {monthlyPremium}</strong> x 6 bulan 
+
+        <br />
+
+        Total instalment price: <strong>IDR {6*monthlyPremium}</strong> 
+
+      </p>
+
+      <spacer size="22"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: customer eligible for instalment -->
+
+<!-- Full payment -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary">
+        <strong>
+          Full Payment Option
+        </strong>
+      </h3>
+
+      <p>
+        Your special price for full payment is only
+
+        <br />
+
+        <strong>IDR {annualPremium}</strong> / year 
+
+      </p>
+
+      <spacer size="22"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Full payment -->
+
+<!-- Current coverage -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="16"></spacer>
+
+      <h3 class="text-secondary">
+        <strong>
+          Your current insurance coverage:
+        </strong>
+      </h3>
+
+      <ul>
+        
+        <li style="margin-bottom:8px">
+          {full list of coverage }
+        </li>
+ 
+      </ul>
+
+      <spacer size="12"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Current coverage -->
+
+ <!-- CTA -->
+ <container>
+  <row>
+    <columns small="12">
+      <spacer size="39"></spacer>
+
+      <center>
+        <button href="#" class="primary large radius text-center" align="center">
+          <span class="text-center">
+            Renew Policy Now!
+          </span>
+        </button>
+      </center>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- CTA -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12">
+      <spacer size="3"></spacer>
+
+      <p class="text-center text-secondary">
+        If you have any questions or need further information, please contact us at <a href="tel:02150890821" class="text-primary">021 5089 0821</a>.
+      </p>
+
+      <spacer size="59"></spacer>
+
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-en}}

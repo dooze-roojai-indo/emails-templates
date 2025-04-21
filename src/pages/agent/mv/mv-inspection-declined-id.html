@@ -1,0 +1,123 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-car-inspection-declined-en-20230120.jpg" alt="Maaf, permohonan polis asuransimu tidak dapat dilanjutkan" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Maaf, permohonan polis asuransimu tidak dapat dilanjutkan
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Polis:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="16"></spacer>
+
+        <p class="text-center">
+          Detail Customer:
+
+          <br>
+
+          <strong>
+            Nama: {customer_name}
+          </strong><br>
+
+          <strong>
+            Email: {customer_email}
+          </strong>
+
+          <!-- Scenario: customer phone number -->
+          <br>
+
+          <strong>
+            No. HP: {customer_phone_number}
+          </strong>
+
+          <br />
+        </p>
+
+        <spacer size="19"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Terima kasih atas antusiasmu dalam memberikan proteksi untuk mobilmu bersama Roojai. Namun, berdasarkan hasil inspeksi mobil yang telah dilakukan melalui video call, kami ingin menginformasikan bahwa permohonan asuransi mobilmu tidak dapat dilanjutkan.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <!-- Scenario: payment with credit card -->
+      <p>
+        Premi yang telah kamu bayarkan sebesar <strong>Rp{payment_amount}</strong> akan dikembalikan ke kartu kreditmu maksimal dalam <strong>5 hari kerja</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+      <!-- Scenario: payment with credit card -->
+
+      <!-- Scenario: payment with va/debit card -->
+      <p>
+        Tim contact center kami akan segera menghubungimu untuk konfirmasi nomor rekeningmu. Pengembalian premi yang sudah dibayarkan sebesar <strong>Rp{payment_amount}</strong> akan dilakukan maks. <strong>5 hari kerja</strong> setelah nomor rekening dikonfirmasi.
+      </p>
+
+      <spacer size="14"></spacer>
+      <!-- Scenario: payment with va/debit card -->
+
+      <spacer size="44"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-agent-empty-id}}

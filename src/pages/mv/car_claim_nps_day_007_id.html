@@ -1,0 +1,98 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-nps-inspection-id-20230120.jpg" alt="Survei Kepuasan Layanan Klaim" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Survei Kepuasan Layanan Klaim
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="23"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            Nomor Polis: {policy_number}
+          </strong>
+        </h4>
+
+        <h4 class="text-center text-white">
+          <strong>
+            Kendaraan: {year} {brand} {model}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Berdasarkan pengalaman klaimmu, berapa nilai yang ingin kamu berikan untuk merekomendasikan Roojai kepada keluarga dan temanmu? (0 = tidak ingin, 10 = sangat merekomendasikan).
+      </p>
+
+      <spacer size="42"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- icons -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary text-center">
+        Silakan pilih skor di bawah ini 
+      </h3>
+
+      <spacer size="2"></spacer>
+    </columns>
+  </row>
+
+  {{>nps-rating-10 }}
+
+  <spacer size="48"></spacer>
+</container>
+<!-- icons -->
+
+{{> footer-id}}

@@ -1,0 +1,330 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+
+h3 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+  hyphens: none;
+}
+
+a {
+  font-weight: 700;
+}
+
+.voucher-total-amount {
+  font-size: 28px;
+}
+
+.voucher-amount {
+  font-size: 18px;
+}
+
+span.text-center {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+table.callout {
+  margin-bottom: 0;
+}
+
+th.columns {
+  padding-bottom: 0;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #f3f3f3;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 0;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.wrapper.primary-box {
+  background-color: #ff5011;
+}
+
+th.callout-inner.primary {
+  background-color: #ff5011;
+  border-color: #ff5011;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+th.callout-inner.primary p {
+  color: #fff;
+}
+
+th.callout-inner.gray {
+  background-color: #ededed;
+  border-color: #ededed;
+}
+
+.callout-inner.points-reward {
+  background-color: #ededed;
+  border-color: #ededed;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.callout-inner.points-reward h3 {
+  color: #003b71;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+table.button.car-inspection-requirements table td {
+  background-color: #ededed;
+  border-color: #ededed;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+table.button.proof-of-income table td {
+  background: #fff;
+}
+
+table.button {
+  margin-bottom: 0;
+}
+
+table.button.proof-of-income table td td {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+table.button.proof-of-income table td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #003b71;
+}
+
+table.button.proof-of-income table td a {
+  font-size: inherit;
+  font-weight: 700;
+  color: $primary-color;
+  padding: 0;
+  border: none;
+}
+
+.wrapper.footer {
+  background-color: #ededed;
+}
+
+.wrapper.footer p {
+  color: #666666;
+}
+
+.wrapper.footer p a {
+  color: #666666;
+}
+
+table.menu td.menu-item, table.menu th.menu-item {
+  padding: 0;
+  padding-right: 5px;
+}
+
+small {
+  font-size: 12px;
+  color: inherit;
+}
+
+.wrapper.footer small {
+  font-size: 11px;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-gray {
+  color: #A6A8AC;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-indent {
+  padding-left: 25px;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 25px;
+}
+
+ol {
+  ol {
+    list-style-type: lower-alpha;
+  }
+}
+
+ul.custom-bullet {
+  list-style-type: none;
+}
+
+ul.custom-bullet > li:before {
+  content:"\2022";
+  font-size:1.125rem;
+  font-weight:bold;
+  color:#ff5011;
+  display:inline-block;
+  width:1rem;
+  margin-left:-1.375rem;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #A6A8AC;
+  margin: 0;
+}
+
+p {
+  word-wrap: normal;
+  word-break: keep-all;
+}
+
+.background-body-header-gray {
+  background-color: #A6A8AC;
+}
+
+.background-body-header-light-gray {
+  background-color: #ededed;
+}
+
+.background-body-header-gray p {
+  color: #fff;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.background-body-header-gray p {
+  color: #fff;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inspection-row p {
+  font-size: 0.875rem;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.inspection-row tr tr {
+  border-bottom: 1px solid #ededed;
+}
+
+.small-11 {
+  width: 91.667%;
+}
+
+.small-10 {
+  width: 83.333%;
+}
+
+.small-9 {
+  width: 75%;
+}
+
+.small-6 {
+  width: 50%;
+}
+
+.small-3 {
+  width: 25%;
+}
+
+.small-2 {
+  width: 16.667%;
+}
+
+.small-1 {
+  width: 8.333%;
+}
+
+.small-auto {
+  width: 1%;
+}
+
+.h4 {
+  font-size: 24px;
+}
+
+.icon-step {
+  width: 24px!important;
+  min-width: 24px!important;
+  height: 24px!important;
+}

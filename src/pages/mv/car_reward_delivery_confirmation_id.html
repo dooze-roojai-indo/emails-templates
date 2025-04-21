@@ -1,0 +1,109 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-rewards-redeemed-id-20230120.jpg" alt="Nikmati Voucher Hadiah dari Roojai Reward! " />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Nikmati Voucher Hadiah dari Roojai Rewards!
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Terima kasih telah menukarkan Roojai Rewards untuk voucher <strong>{voucher_name}</strong>. 
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Kami akan segera mengirimkan vouchernya ke alamatmu:
+
+        <br />
+
+        <strong>{address detail}</strong>
+      </p>
+      
+      <spacer size="14"></spacer>
+
+      <p>
+        Kamu akan menerima vouchernya maksimal dalam <strong>{days}</strong> hari kerja.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <!-- Scenario: if the customer chose Tokopedia voucher -->
+      <p>
+        Syarat dan ketentuan penggunaan voucher Tokopedia dapat kamu lihat di
+
+        <br />
+
+        <a href="https://www.tokopedia.com/help/article/a-1025" target="_blank">Syarat dan Ketentuan Tokopedia Gift Card</a>
+      </p>
+
+      <spacer size="14"></spacer>
+      <!-- Scenario: if the customer chose Tokopedia voucher -->
+
+      <!-- Scenario: if the customer chose Pertamina voucher -->
+      <p>
+        Syarat dan ketentuan penggunaan voucher Pertamina:
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <ol class="custom-bullet">
+        <li style="margin-bottom: 8px">
+          Penukaran voucher hanya dapat dilakukan pada SPBU COCO (bernomor 31)
+        </li>
+
+        <li style="margin-bottom: 8px">
+          Customer hanya membawa voucher fisik dan ditunjukan ke petugas SPBU
+        </li>
+
+        <li style="margin-bottom: 8px">
+          Apabila ada kendala voucher, dapat menghubungi kontak CS GiftN dengan nomor: <a href="tel:06287838350214">+62 878-3835-0214</a> (hanya chat, tidak bisa telepon)
+        </li>
+      </ol>
+
+      <spacer size="14"></spacer>
+      <!-- Scenario: if the customer chose Pertamina voucher -->
+
+      <p>
+        Jika kamu memiliki pertanyaan atau membutuhkan informasi lebih lanjut, silakan menghubungi kami di <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="42"></spacer>
+    </columns>
+  </row>
+</container>
+
+{{> footer-id}}

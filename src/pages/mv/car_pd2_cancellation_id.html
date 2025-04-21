@@ -1,0 +1,72 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-pd2-protection-cancelled-id-20230131.jpg" alt="Pembatalan Permohonan Polis Asuransi" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Pembatalan Permohonan Polis Asuransi
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Permohonan polis asuransimu dibatalkan karena informasi tambahan yang dibutuhkan tidak dilengkapi.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <!-- Scenario: customer payment using credit card -->
+      <p>
+        Premi yang telah kamu bayarkan sebesar <strong>Rp{number}</strong> akan dikembalikan ke kartu kreditmu maksimal dalam 2 hari kerja.  
+      </p>
+      <!-- Scenario: customer payment using credit card -->
+
+      <!-- Scenario: customer payment using VA/debit card -->
+      <p>
+        Tim contact center kami akan segera menghubungimu untuk konfirmasi nomor rekeningmu. Pengembalian premi yang sudah dibayarkan sebesar <strong>Rp{number}</strong> akan dilakukan maks. 2 hari kerja setelah nomor rekening dikonfirmasi. 
+      </p>
+      <!-- Scenario: customer payment using VA/debit card -->
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Jika kamu membutuhkan bantuan atau informasi lebih lanjut, silakan hubungi kami di <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-id}}

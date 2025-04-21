@@ -1,0 +1,486 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-secondary-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-car-inspection-approved-en-20230120.jpg" alt="Thank you for trusting Roojai in protecting your car" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row class="collapse">
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Thank you for trusting Roojai in protecting your car
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- policy number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <spacer size="16"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- policy number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p class="text-secondary">
+        <strong>
+          Hi <strong>{first_name}</strong>,
+        </strong>
+      </p>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- Scenario: if the car inspection was done within policy period -->
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        Congrats! Your car inspection result is <strong>approved</strong> and your car insurance policy is active starting from <strong>{start_date}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+<!-- Scenario: if the car inspection was done within policy period -->
+
+<!-- Scenario: if the car inspection was done before policy period -->
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        Congrats! Your car inspection result is <strong>approved</strong> and your car insurance policy will be activated on <strong>{start_date}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+<!-- Scenario: if the car inspection was done before policy period -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        You can find the report of car inspection result below.
+      </p>
+
+      <spacer size="26"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- inspection result -->
+<!-- insured vehicle -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Insured Vehicle
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Car Type &amp; Brand
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {brand} {car_type}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            License Plate Number
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {lincense_plate_number}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Chassis Number 
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {chasis_number}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Vehicle Use
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {vehicle_use}
+            </strong>
+          </p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="24"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- insured vehicle -->
+
+<!-- details of inspection -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Details of Inspection 
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Date of Inspection
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {date_of_inspection}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Method of Inspection
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {method_of_inspection}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Appointment Place
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {appointment_place}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Odometer  
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {odometer}
+            </strong>
+          </p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="24"></spacer>
+    </column>
+  </row>
+</container>
+<!-- details of inspection -->
+
+<!-- pre-existing damages -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Pre-Existing Damages
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="12" large="4">
+          <p>
+            Damages
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            Damage Positions
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            Damage Levels 
+          </p>
+        </columns>
+      </row>
+
+      <!-- repeat -->
+      <row class="inspection-row">
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage}
+            </strong>
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage_position}
+            </strong>
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage_level}
+            </strong>
+          </p>
+        </columns>
+      </row>
+      <!-- repeat -->
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="14"></spacer>
+
+      <p>
+        <em class="text-secondary">
+          The above preexisting damages is not covered.
+        </em>
+      </p>
+
+      <spacer size="40"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- pre-existing damages -->
+<!-- inspection result -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <ol class="custom-bullet">
+        <li class="text-secondary" style="margin-bottom: 10px">
+          Access your insurance policy at anytime and anywhere via <a href="https://myaccount.roojai.co.id">MyAccount</a> within 15 minutes after your account is activated.
+        </li>
+
+        <li class="text-secondary" style="margin-bottom: 10px">
+          If you choose the policy in hardcopy, you will receive the policy documents within 10 working days.
+        </li>
+      </ol>
+
+      <spacer size="6"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- Scenario: if the customer is eligible for Roojai Rewards -->
+<!-- roojai points reward  -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row>
+    <columns>
+      <callout class="points-reward">
+        <spacer size="11"></spacer>
+
+        <p>
+          Congrats! You also earned <strong>{reward_points}</strong> of Roojai Rewards points which you can redeem for a Tokopedia or Pertamina voucher. Our team will be contacting you to confirm the voucher delivery information.
+        </p>
+
+        <spacer size="10"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="43"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- roojai points reward  -->
+<!-- Scenario: if the customer is eligible for Roojai Rewards -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        If you need assistance or further information, please contact us at <a href="tel:02150890821" class="text-primary">021 5089 0821</a>.
+      </p>
+
+      <spacer size="42"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- myaccount icon -->
+<container>
+  <row>
+    <columnss small="12">
+      <center>
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/icon-my-account.png" style="-ms-interpolation-mode:bicubic;clear:both;display:block;margin:auto!important;max-width:100%;outline:0;text-decoration:none;width:auto" />
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="26"></spacer>
+
+  <row>
+    <columns small="12">
+      <p class="text-center text-secondary">
+        Kamu bisa mengakses semua dokumen kamu<br />secara online melalui Roojai <a href="https://myaccount.roojai.co.id" target="_blank" class="text-primary"><strong>MyAccount</strong></a>.
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="26"></spacer>
+
+  <row>
+    <columns small="12">
+      <center>
+        <button href="https://myaccount.roojai.co.id" class="primary large radius" align="center">
+          Masuk ke Roojai MyAccount
+        </button>
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="64"></spacer>
+</container>
+<!-- myaccount icon -->
+
+{{> footer-en}}

@@ -1,0 +1,78 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-cancellation-id-20230120.jpg" alt="Customize Your Car Protection Easily!" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Pembatalan Asuransi Mobil {car_brand} {car_type} 
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Kami ingin menginformasikanmu bahwa polis asuransi mobilmu sudah dibatalkan per tanggal <strong>{cancellation_date}</strong>.  
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <!-- Scenario: if the customer did not receive Roojai Rewards -->
+      <p>
+        Pengembalian dana akan dilakukan berdasarkan perhitungan short-rate yang tertera pada booklet Asuransi Mobil All Risk, serta memotong nilai klaim yang telah dibayarkan (jika ada). Apabila jumlah klaim lebih besar dari premi yang dibayarkan, maka pengembalian dana tidak berlaku.   
+      </p>
+      <!-- Scenario: if the customer did not receive Roojai Rewards -->
+
+      <!-- Scenario: if the customer received voucher -->
+      <p>
+        Pengembalian dana akan dilakukan berdasarkan perhitungan short-rate yang tertera pada booklet Asuransi Mobil All Risk, serta memotong nilai Roojai Reward yang telah kamu terima dan nilai klaim yang telah dibayarkan (jika ada). Apabila jumlah klaim lebih besar dari premi yang dibayarkan, maka pengembalian dana tidak berlaku.   
+      </p>
+      <!-- Scenario: if the customer received voucher -->
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Silahkan cek dokumen pembatalan yang terlampir di email ini untuk ketahui detailnya. 
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Jika kamu membutuhkan bantuan atau informasi lebih lanjut, silakan hubungi kami di <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-roojai-lifepal-id}}

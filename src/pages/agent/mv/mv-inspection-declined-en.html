@@ -1,0 +1,123 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-car-inspection-declined-en-20230120.jpg" alt="Sorry, we can’t proceed with your insurance policy application" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Sorry, we can’t proceed with your insurance policy application
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="16"></spacer>
+
+        <p class="text-center">
+          Customer's Detail:
+
+          <br>
+
+          <strong>
+            Name: {customer_name}
+          </strong><br>
+
+          <strong>
+            Email: {customer_email}
+          </strong>
+
+          <!-- Scenario: customer phone number -->
+          <br>
+
+          <strong>
+            Phone Number: {customer_phone_number}
+          </strong>
+
+          <br />
+        </p>
+
+        <spacer size="19"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Thank you for your enthusiasm in providing protection for your car with Roojai. Based on the results of a car inspection, we are sorry to inform you that we can’t proceed with your car insurance application.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <!-- Scenario: payment with credit card -->
+      <p>
+        The premium amount of <strong>IDR {payment_amount}</strong> will be refunded within max. <strong>5 working days</strong> to your credit card. 
+
+        <spacer size="14"></spacer>
+      </p>
+      <!-- Scenario: payment with credit card -->
+
+      <!-- Scenario: payment with va/debit card -->
+      <p>
+        Our contact center team will contact you to confirm your bank account number. We will refund the premium in the amount of <strong>IDR {payment_amount}</strong> within max. <strong>5 working days</strong> after the account number is confirmed.
+
+        <spacer size="14"></spacer>
+      </p>
+      <!-- Scenario: payment with va/debit card -->
+
+      <spacer size="44"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-agent-empty-en}}

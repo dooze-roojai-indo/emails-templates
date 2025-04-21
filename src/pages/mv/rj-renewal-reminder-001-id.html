@@ -1,0 +1,248 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id asuransi online" />
+        
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/mv/renewal-reminder-id-202412051820.jpg" alt="Polis asuransi mobilmu akan berakhir sebulan lagi" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Polis asuransi mobilmu akan berakhir sebulan lagi
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- policy number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Penawaran Perpanjang Polis
+          </strong>
+        </p>
+
+        <spacer size="16"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {renewalQuotationNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- policy number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p class="text-secondary">
+        <strong>
+          Hai <strong>{fullName}</strong>, 
+        </strong>
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-secondary">
+        Kami ingin mengingatkan bahwa polis asuransi Mobil All Risk dengan nomor polis <strong>{policyNumber}</strong> akan segera berakhir pada tanggal <strong>{endDate}</strong>. Silakan klik tombol di bawah ini untuk perpanjang polismu.
+      </p>
+
+      <spacer size="20"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- Scenario: customer car is over 8 years old and registered as 'authorized garage' user -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="23"></spacer>
+
+      <callout class="gray">
+        <spacer size="11"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Informasi Penting tentang Jaringan Bengkel Anda
+          </strong>
+        </p>
+
+        <p class="text-center">
+          Berdasarkan ketentuan saat ini, bengkel resmi hanya dapat digunakan untuk usia kendaraan sampai dengan 8 tahun. Jika sebelumnya mobilmu terdaftar untuk perbaikan di bengkel resmi, maka akan dialihkan ke perbaikan di bengkel umum saat perpanjangan ini. 
+        </p>
+      </callout>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: customer car is over 8 years old and registered as 'authorized garage' user -->
+
+<!-- CTA -->
+<container>
+  <row>
+    <columns small="12">
+      <spacer size="39"></spacer>
+
+      <center>
+        <button href="#" class="primary large radius text-center" align="center">
+          <span class="text-center">
+            Perpanjang Polis Sekarang
+          </span>
+        </button>
+      </center>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- CTA -->
+
+<!-- Scenario: customer eligible for instalment -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary">
+        <strong>
+          Pembayaran Cicilan
+        </strong>
+      </h3>
+
+      <p>
+        Premi jadi lebih ringan dengan pilihan cicilan 6x 
+
+        <br />
+
+        <strong>Rp{monthlyPremium}</strong> x 6 bulan 
+
+        <br />
+
+        Total premium setahun: <strong>Rp{6*monthlyPremium}</strong> 
+
+      </p>
+
+      <spacer size="22"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: customer eligible for instalment -->
+
+<!-- Full payment -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary">
+        <strong>
+          Pembayaran Penuh
+        </strong>
+      </h3>
+
+      <p>
+        Pilih pembayaran penuh untuk premi lebih murah
+
+        <br />
+
+        <strong>Rp{annualPremium}</strong> / tahun 
+
+      </p>
+
+      <spacer size="22"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Full payment -->
+
+<!-- Current coverage -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="16"></spacer>
+
+      <h3 class="text-secondary">
+        <strong>
+          Manfaat asuransi [product name]mu saat ini:
+        </strong>
+      </h3>
+
+      <ul>
+        
+        <li style="margin-bottom:8px">
+          {full list of coverage }
+        </li>
+ 
+      </ul>
+
+      <spacer size="12"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Current coverage -->
+
+ <!-- CTA -->
+ <container>
+  <row>
+    <columns small="12">
+      <spacer size="39"></spacer>
+
+      <center>
+        <button href="#" class="primary large radius text-center" align="center">
+          <span class="text-center">
+            Perpanjang Polis Sekarang
+          </span>
+        </button>
+      </center>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- CTA -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12">
+      <spacer size="3"></spacer>
+
+      <p class="text-center text-secondary">
+        Jika kamu membutuhkan bantuan dan informasi lebih lanjut, silakan hubungi kami di <a href="tel:02150890821" class="text-primary">021 5089 0821</a>.
+      </p>
+
+      <spacer size="59"></spacer>
+
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-id}}

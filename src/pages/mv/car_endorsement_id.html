@@ -1,0 +1,110 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-endorsement-id-20230120.jpg" alt="Cek perubahan pada detail asuransi mobilmu" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Cek perubahan pada detail asuransi mobilmu 
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Polis:
+          </strong>
+        </p>
+
+        <spacer size="16"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Kami ingin menginformasikanmu bahwa perubahan informasi berikut berhasil dilakukan pada asuransi mobilmu.   
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <ul class="custom-bullet">
+        <li style="margin-bottom:8px">
+          <strong>{changes}</strong>
+        </li>
+      </ul>
+
+      <spacer size="30"></spacer>
+
+      <p>
+        Perubahan ini terjadi karena:
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <ul class="custom-bullet">
+        <li style="margin-bottom:8px">
+          <strong>{reason_for_change}</strong>
+        </li>
+      </ul>
+
+      <spacer size="30"></spacer>
+
+      <p>
+        Jika kamu memiliki pertanyaan atau membutuhkan informasi lebih lanjut, silakan menghubungi kami di <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-id}}

@@ -1,0 +1,128 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id asuransi online" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-claim-incomplete-id-20230120.jpg" alt="Mohon Lengkapi Dokumen untuk Melanjutkan Klaimmu" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+           Mohon Lengkapi Dokumen untuk Melanjutkan Klaimmu 
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="23"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            Nomor Polis: {policy_number}
+          </strong>
+        </h4>
+
+        <h4 class="text-center text-white">
+          <strong>
+            Nomor Claim: {claim_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <spacer size="60"></spacer>
+
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Terima kasih atas kepercayaanmu kepada PT Roojai Insurance Agent sebagai perwakilan sah dari PT Sompo Insurance Indonesia terkait dengan perlindungan asuransi kendaraan bermotormu.  
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Klaim yang kamu ajukan belum dapat diproses karena ada beberapa dokumen yang belum dilengkapi sebagai berikut:
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <ul class="custom-bullet">
+        <li style="margin-bottom:8px">
+          <strong>{missing_document}</strong>
+        </li>
+      </ul>
+
+      <spacer size="30"></spacer>
+
+      <p>
+        Mohon untuk mengirimkan kelengkapan dokumen tersebut paling lambat <strong>30 hari kalender</strong> sejak email ini kami kirimkan. Jika dalam waktu yang ditentukan kelengkapan dokumen klaim belum kami terima, maka proses klaim tidak dapat dilanjutkan.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Kelengkapan dokumen dapat dikirimkan ke alamat email <a href="mailto:mvclaims@roojai.co.id">mvclaims@roojai.co.id</a> dengan menggunakan format:
+
+        <br />
+
+        <strong>Kelengkapan Dokumen//Nama Nasabah//No Polis//No Klaim//Nama Produk</strong> 
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Jika ada pertanyaan, silahkan hubungi hotline klaim di <a href="tel:02150890821">021 5089 0821</a> atau email ke <a href="mailto:service@roojai.co.id">service@roojai.co.id</a>. 
+      </p>
+
+      <spacer size="30"></spacer>
+
+      <p>
+        Hormat kami,
+
+        <br />
+
+        <strong>
+          PT Roojai Insurance Agent 
+        </strong>
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-id}}

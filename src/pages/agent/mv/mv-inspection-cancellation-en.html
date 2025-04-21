@@ -1,0 +1,70 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-cancellation-en-20230120.jpg" alt="Sorry, your insurance application has been cancelled" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Sorry, your insurance application has been cancelled
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        We are sorry to inform you that your car insurance application has been cancelled because of the failure to complete the required car inspection.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <!-- Scenario: payment with credit card -->
+      <p>
+        The premium amount of <strong>IDR {payment_amount}</strong> will be refunded within max. <strong>5 working days</strong> to your credit card. 
+      </p>
+
+      <spacer size="14"></spacer>
+      <!-- Scenario: payment with credit card -->
+
+      <!-- Scenario: payment with va/debit card -->
+      <p>
+        Our contact center team will contact you to confirm your bank account number. We will refund the premium in the amount of <strong>IDR {payment_amount}</strong> within max. <strong>2 working days</strong> after the account number is confirmed.
+      </p>
+
+      <spacer size="14"></spacer>
+      <!-- Scenario: payment with va/debit card -->
+
+      <spacer size="44"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-agent-empty-en}}

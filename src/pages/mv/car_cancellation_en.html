@@ -1,0 +1,78 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-cancellation-en-20230120.jpg" alt="Customize Your Car Protection Easily!" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Cancellation of Car Insurance {car_brand} {car_type}
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hi <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        We're sorry to inform you that your car insurance policy has been cancelled on <strong>{cancellation_date}</strong>.  
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <!-- Scenario: if the customer did not receive Roojai Rewards -->
+      <p>
+        Your premium will be refunded based on the short-rate calculation as written in the Comprehensive Car Insurance booklet and after deducting the claim value that has been paid (if any). If the value of the claim is bigger than the paid premium, then no premium will be refunded.   
+      </p>
+      <!-- Scenario: if the customer did not receive Roojai Rewards -->
+
+      <!-- Scenario: if the customer received voucher -->
+      <p>
+        Your premium will be refunded based on the short-rate calculation as written in the Comprehensive Car Insurance booklet, after deducting the value of Roojai Reward you’ve received and the claim value that has been paid (if any). If the value of the claim is bigger than the paid premium, then no premium will be refunded.     
+      </p>
+      <!-- Scenario: if the customer received voucher -->
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Please check the cancellation document attached to this email for the details.  
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        If you need assistance or further information, please contact us at <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-en}}

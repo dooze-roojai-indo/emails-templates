@@ -1,0 +1,122 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-endorsement-en-20230120.jpg" alt="Thank you for trusting Roojai for your car protection" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Thank you for trusting Roojai
+
+          <br />
+
+          for your car protection
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hi <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        We have received your request to add the following coverage to your car insurance:
+      </p>
+
+      <spacer size="6"></spacer>
+
+      <ul>
+        <li style="margin-bottom:8px">
+          <strong>{addition_coverage}</strong>
+        </li>
+      </ul>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        With a total additional premium cost of <strong>IDR {additional_price}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Because you choose instalment payments, the additional premium amount will be <strong>IDR {price_of_additional_coverage : 5}</strong>/month.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        The total instalment amount going forward will therefore be <strong>Rp{current_premium}</strong> + <strong>additional_premium_month}</strong>/bulan.
+      </p>
+
+      <spacer size="22"></spacer>
+
+      <p>
+        The additional coverage will be active immediately. You can check the updated policy via <a href="https://myaccount.roojai.co.id" target="_blank">MyAccount</a>. 
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        If you need assistance or further information, please contact us at <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-en}}

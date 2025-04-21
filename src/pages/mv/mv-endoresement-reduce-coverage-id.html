@@ -1,0 +1,152 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-endorsement-en-20230120.jpg" alt="Terima kasih telah mempercayakan Roojai untuk proteksi mobilmu" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Terima kasih telah mempercayakan Roojai
+
+          <br />
+
+          untuk proteksi mobilmu
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Polis:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Kami sudah menerima permintaan pengurangan pertanggungan untuk asuransi mobil kamu yaitu:
+      </p>
+
+      <spacer size="6"></spacer>
+
+      <ul>
+        <li style="margin-bottom:8px">
+          <strong>{coverage}</strong>
+        </li>
+      </ul>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Dengan total pengurangan biaya premi senilaii <strong>Rp{price}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- Scenario: customer payment using credit card -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Kami akan melakukan pengembalian premi ke kartu kreditmu maksimal dalam <strong>7 hari kerja</strong>.
+      </p>
+
+      <spacer size="22"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: customer payment using credit card -->
+
+<!-- Scenario: customer payment using dc/va -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Kami akan melakukan pengembalian premi maksimal dalam 7 hari ke:
+
+        <br />
+
+        Bank: <strong>{bank_name}</strong>
+
+        <br />
+
+        Nomor Rekening: <strong>{account_number}</strong>
+
+        <br />
+
+        Atas Nama: <strong>{customer_name}</strong> 
+      </p>
+
+      <spacer size="22"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: customer payment using dc/va -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Jika kamu membutuhkan bantuan atau informasi lebih lanjut, silakan hubungi kami di <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-id}}

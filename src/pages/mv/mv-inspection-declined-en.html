@@ -1,0 +1,358 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-car-inspection-declined-en-20230120.jpg" alt="Sorry, we can’t proceed with your insurance policy application" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Sorry, we can’t proceed with your insurance policy application
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Thank you for your enthusiasm in providing protection for your car with Roojai. Based on the results of a car inspection, we are sorry to inform you that <strong>we can’t proceed with your car insurance application</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        You can find the report of car inspection result below.
+      </p>
+
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- inspection result -->
+<!-- insured vehicle -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Insured Vehicle
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Car Type &amp; Brand
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {brand} {car_type}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            License Plate Number
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {lincense_plate_number}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Chassis Number 
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {chasis_number}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Vehicle Use
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {vehicle_use}
+            </strong>
+          </p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="24"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- insured vehicle -->
+
+<!-- details of inspection -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Details of Inspection 
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Date of Inspection
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {date_of_inspection}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Method of Inspection
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {method_of_inspection}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Appointment Place
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {appointment_place}
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="6">
+          <p>
+            Odometer  
+          </p>
+        </columns>
+
+        <columns small="6">
+          <p>
+            <strong>
+              : {odometer}
+            </strong>
+          </p>
+        </columns>
+      </row>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="24"></spacer>
+    </column>
+  </row>
+</container>
+<!-- details of inspection -->
+
+<!-- pre-existing damages -->
+<container>
+  <row>
+    <columns align="center">
+      <row class="background-body-header-gray">
+        <columns>
+          <p>
+            <strong>
+              Pre-Existing Damages
+            </strong>
+          </p>
+        </columns>
+      </row>
+
+      <row class="inspection-row">
+        <columns small="12" large="4">
+          <p>
+            Damages
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            Damage Positions
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            Damage Levels 
+          </p>
+        </columns>
+      </row>
+
+      <!-- repeat -->
+      <row class="inspection-row">
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage}
+            </strong>
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage_position}
+            </strong>
+          </p>
+        </columns>
+
+        <columns small="12" large="4">
+          <p>
+            <strong>
+              {damage_level}
+            </strong>
+          </p>
+        </columns>
+      </row>
+      <!-- repeat -->
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12"  align="center">
+      <spacer size="14"></spacer>
+
+      <p>
+        <em class="text-secondary">
+          The above preexisting damages is not covered.
+        </em>
+      </p>
+
+      <spacer size="40"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- pre-existing damages -->
+<!-- inspection result -->
+
+<!-- Scenario: payment with credit card -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        The premium amount of <strong>IDR {payment_amount}</strong> will be refunded within max. 2 working days to your credit card. 
+      </p>
+
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: payment with credit card -->
+
+<!-- Scenario: payment with va/debit card -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Our contact center team will contact you to confirm your bank account number. We will refund the premium in the amount of <strong>IDR {payment_amount}</strong> within max. 2 working days after the account number is confirmed.
+      </p>
+
+      <spacer size="14"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- Scenario: payment with va/debit card -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        If you have any questions or need further information, please contact us at <a href="tel:02150890821">021 5089 0821</a>.
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-en}}

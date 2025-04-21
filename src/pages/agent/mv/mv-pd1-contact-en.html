@@ -1,0 +1,234 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id asuransi online" style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/pa/banner-quotation-pa-20231002.jpg" alt="One Potential Customer Detected!" style="-ms-interpolation-mode:bicubic;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto">
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          One Potential Customer Detected!
+        </strong>
+      </h1>
+
+      <spacer size="55"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        <strong>
+          Hi {agent_name}!
+        </strong>
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        You got a new potential customer for Comprehensive Car insurance with the following details:
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Quotation number: <strong>{quotation_number}</strong>
+      </p>
+
+      <spacer size="6"></spacer>
+
+      <p>
+        Email: <strong>{customer_email}</strong>
+      </p>
+
+      <spacer size="6"></spacer>
+
+      <p>
+        Phone number: <strong>{customer_phone_number}</strong>
+      </p>
+
+      <spacer size="42"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- sum insured -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <button class="points-reward">
+        <spacer size="11"></spacer>
+
+        <p class="text-center">
+          Maximum sum insured:
+        </p>
+
+        <h3 class="text-secondary" style="font-size: 24px">
+          <strong>IDR {sum_insured}</strong> 
+        </h3>
+
+        <spacer size="10"></spacer>
+      </button>
+    </columns>
+  </row>
+</container>
+<!-- sum insured -->
+
+<!-- coverage details -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="43"></spacer>
+
+      <h3 class="text-secondary">
+        This will cover you for damages to your vehicle: 
+      </h3>
+
+      <ul>
+        <li style="margin-bottom:4px">
+          If you hit another vehicle, or another vehicle hits you
+        </li>
+
+        <li style="margin-bottom:4px">
+          If you crash by yourself (be careful!)
+        </li>
+
+        <li style="margin-bottom:4px">
+          If you hit an object (or animal!)
+        </li>
+
+        <li style="margin-bottom:4px">
+          In cases of theft, fire, or vandalism
+        </li>
+
+        <li style="margin-bottom:4px">
+          And if your car needs towing after an accident, we will tow it to the nearest garage
+        </li>
+      </ul>
+
+      <spacer size="23"></spacer>
+
+      <hr />
+
+      <spacer size="27"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- coverage details -->
+
+<!-- additional coverage details -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary">
+        Additional coverage you chose:
+      </h3>
+
+      <ul>
+        <li style="margin-bottom:4px">
+          {Repair at our preferred garage with own risk of <strong>{IDR 300,000}</strong>}
+        </li>
+
+        <li style="margin-bottom:4px">
+          {Third party legal liability <strong>{IDR 25,000,000}</strong>}
+        </li>
+
+        <li style="margin-bottom:4px">
+          {Personal accident coverage <strong>{IDR 25,000,000}</strong> / person } 
+        </li>
+      </ul>
+
+      <spacer size="23"></spacer>
+
+      <hr />
+
+      <spacer size="27"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- additional coverage details -->
+
+<!-- main driver -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary">
+        Main Driver’s Information: 
+      </h3>
+
+      <ul>
+        
+        <li style="margin-bottom:4px">
+          Name: <strong>{full_name}</strong>
+        </li>
+
+        <li style="margin-bottom:4px">
+          Age: <strong>{age}</strong>
+        </li>
+
+        <li style="margin-bottom:4px">
+          Marital Status: <strong>{marital_status}</strong>
+        </li>
+
+        <li style="margin-bottom:4px">
+          Driving License Ownership: <strong>{license_ownership_years}</strong>
+        </li>
+
+        <li style="margin-bottom:4px">
+          Claim Filed within the last 12 Months: <strong>{claim_number}</strong>
+        </li>
+
+        <li style="margin-bottom:4px">
+          Postal Code: <strong>{postal_code}</strong>
+        </li>
+
+      </ul>
+
+      <spacer size="19"></spacer>
+
+      <hr />
+
+      <spacer size="27"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- main driver -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Please follow up to help them get the insurance they need.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        Good luck!
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-agent-empty-en}}

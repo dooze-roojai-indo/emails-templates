@@ -1,0 +1,194 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-secondary-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-car-inspection-approved-id-20230120.jpg" alt="Terima kasih telah memilih Roojai untuk memproteksi mobilmu" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row class="collapse">
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Terima kasih telah memilih Roojai
+          <br />
+          untuk memproteksi mobilmu
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Polis:
+          </strong>
+        </p>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {policy_number}
+          </strong>
+        </h4>
+
+        <spacer size="16"></spacer>
+
+        <p class="text-center">
+          Detail Customer:
+
+          <br>
+
+          <strong>
+            Nama: {customer_name}
+          </strong><br>
+
+          <strong>
+            Email: {customer_email}
+          </strong>
+
+          <!-- Scenario: customer phone number -->
+          <br>
+
+          <strong>
+            No. HP: {customer_phone_number}
+          </strong>
+
+          <br />
+        </p>
+
+        <spacer size="19"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="60"></spacer>
+
+      <p class="text-secondary">
+        <strong>
+          Hai <strong>{first_name}</strong>,
+        </strong>
+      </p>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- Scenario: if the car inspection was done within policy period -->
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        Terima kasih telah melakukan inspeksi mobil bersama Roojai. Asuransi mobilmu dengan nomor polis <strong>{policy_number}</strong> telah diaktifkan pada tanggal <strong>{start_date}</strong>.
+      </p>
+
+      <spacer size="6"></spacer>
+
+      <ol>
+        <li class="text-secondary" style="margin-bottom: 10px">
+          Akses polis asuransi kamu secara online di MyAccount kapan saja dan di mana saja selama 24/7. Kalau kamu baru saja mengaktifkan akunmu, polis asuransi dapat diakses didalam MyAccount dalam waktu 15 menit.
+        </li>
+
+        <li class="text-secondary" style="margin-bottom: 10px">
+          Jika kamu memilih opsi polis hardcopy, kami akan mengirimkan dokumen polis dalam <strong>10 hari kerja</strong>.
+        </li>
+      </ol>
+
+      <spacer size="6"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+<!-- Scenario: if the car inspection was done within policy period -->
+
+<!-- Scenario: if the car inspection was done before policy period -->
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p class="text-secondary">
+        Terima kasih telah melakukan inspeksi mobil bersama Roojai. Sesuai permintaan, polis asuransi mobilmu dengan nomor polis <strong>{policy_number}</strong> akan diaktifkan pada tanggal <strong>{start_date}</strong>.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <ol class="custom-bullet">
+        <li class="text-secondary" style="margin-bottom: 10px">
+          Akses polis asuransi kamu secara online di MyAccount kapan saja dan di mana saja selama 24/7. Kalau kamu baru saja mengaktifkan akunmu, polis asuransi dapat diakses didalam MyAccount dalam waktu 15 menit.
+        </li>
+
+        <li class="text-secondary" style="margin-bottom: 10px">
+          Jika kamu memilih opsi polis hardcopy, kami akan mengirimkan dokumen polis dalam <strong>10 hari kerja</strong>.
+        </li>
+      </ol>
+
+      <spacer size="6"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+<!-- Scenario: if the car inspection was done before policy period -->
+
+<!-- Scenario: if the customer is eligible for Roojai Rewards -->
+<!-- roojai points reward  -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="4"></spacer>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row>
+    <columns>
+      <button class="points-reward">
+        <spacer size="11"></spacer>
+
+        <p>
+          Selamat! Kamu juga mendapatkan Roojai Rewards senilai <strong>{reward_points}</strong> poin yang bisa kamu tukarkan untuk voucher Tokopedia atau Pertamina. Tim kami akan menghubungimu untuk melakukan konfirmasi pengiriman voucher! 
+        </p>
+
+        <spacer size="6"></spacer>
+      </button>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="53"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- roojai points reward  -->
+<!-- Scenario: if the customer is eligible for Roojai Rewards -->
+
+
+{{> footer-agent-empty-id}}

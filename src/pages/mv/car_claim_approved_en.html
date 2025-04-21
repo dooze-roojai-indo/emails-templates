@@ -1,0 +1,134 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg" alt="Roojai.co.id online insurance" />
+        <img src="https://www.roojai.co.id/EmailTemplate/v2/car/banner-claim-approved-en-20230120.jpg" alt="Claim Approval Information" />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+           Claim Approval Information
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="23"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            Policy Number: {policy_number}
+          </strong>
+        </h4>
+
+        <h4 class="text-center text-white">
+          <strong>
+            Claim Number: {claim_number}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <spacer size="60"></spacer>
+
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hi <strong>{first_name}</strong>,
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Thank you for trusting PT Roojai Insurance Agent as an authorized representative of PT Sompo Insurance Indonesia related to your motor vehicle insurance.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        The claim you submitted <strong>#{claim_number}</strong> has been approved with following details:
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <row class="background-body-header-gray">
+        <columns small="12">
+          <p>Approved claim/panel repair of motor vehicle</p>
+        </columns>
+      </row>
+
+      <spacer size="9"></spacer>
+
+      <ul class="custom-bullet">
+        <li style="margin-bottom:8px">
+          <strong>{approved_claim}</strong>
+        </li>
+
+        <li style="margin-bottom:8px">
+          <strong>{approved_claim}</strong>
+        </li>
+
+        <li style="margin-bottom:8px">
+          <strong>{approved_claim} (not covered due to {reason})</strong>
+        </li>
+      </ul>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        If we do not hear from you within <strong>5 (five) calendar days</strong> from the date of this email, we will assume that you have understood and agreed to the above information.
+      </p>
+
+      <spacer size="14"></spacer>
+
+      <p>
+        If you have any questions, please contact the claim hotline at <a href="tel:02150890821">021 5089 0821</a> or email to <a href="mailto:service@roojai.co.id">service@roojai.co.id</a>.
+      </p>
+
+      <spacer size="30"></spacer>
+
+      <p>
+        Best regards,
+
+        <br />
+
+        <strong>
+          PT Roojai Insurance Agent 
+        </strong>
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-en}}
