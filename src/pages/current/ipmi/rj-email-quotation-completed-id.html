@@ -1,0 +1,545 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-20221202.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-quotation-20250421.jpg"
+          alt="Perlindungan Terbaik dari Asuransi Kesehatan Individu Roojai!"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Perlindungan Terbaik dari
+          
+          <br />
+          
+          Asuransi Kesehatan Individu Roojai! 
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Penawaran:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {QuotationNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Berlaku hingga:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {QuotationExpiry}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+
+  <spacer size="60"></spacer>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai {MainApplicantName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Berikut ini adalah ringkasan penawaran asuransi yang telah kamu pilih:
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        <strong>
+          Jenis Perlindungan:
+        </strong>
+      </p>
+
+      <p>
+        {Asuransi Kesehatan Individu  OR Asuransi Kesehatan Individu Internasional}
+      </p>
+
+      <spacer size="10"></spacer>
+
+      <container class="border-table">
+        <row class="collapse">
+          <columns class="header blue">
+            <div class="text-white p-4px">
+              Siapa yang dapat dilindungi
+            </div> 
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="header border-right">
+            <div class="p-4px">
+              Name
+            </div>
+          </columns>
+
+          <columns large="4" class="header">
+            <div class="p-4px">
+              <div class="text-center">
+                Age
+              </div>
+            </div>
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              {MainApplicantName}
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px text-center p-4px">
+              {Age}
+            </div>
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              {SpouseName}
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px text-center p-4px">
+              {Age}
+            </div>
+          </columns>
+        </row>
+
+        <row>
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              {ChildName}
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px text-center p-4px">
+              {Age}
+            </div>
+          </columns>
+        </row>
+      </container>
+
+      <spacer size="16"></spacer>
+
+      <container class="border-table">
+        <row class="collapse">
+          <columns class="header muted-orange">
+            <div class="text-white p-4px">
+              Siapa yang tidak dapat dilindungi
+            </div> 
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="header border-right">
+            <div class="p-4px">
+              Name
+            </div>
+          </columns>
+
+          <columns large="4" class="header">
+            <div class="p-4px text-center">
+              Age
+            </div>
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              {MainApplicantName}
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px text-center p-4px">
+              {Age}
+            </div>
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              {SpouseName}
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px text-center p-4px">
+              {Age}
+            </div>
+          </columns>
+        </row>
+
+        <row>
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              {ChildName}
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px text-center p-4px">
+              {Age}
+            </div>
+          </columns>
+        </row>
+      </container>
+
+      <spacer size="29"></spacer>
+
+      <p>
+        <strong>
+          Perlindunganmu
+        </strong>
+      </p>
+
+      <container class="border-table">
+        <row class="collapse">
+          <columns large="8" class="header blue border-right">
+            <div class="text-white p-4px">
+              Manfaat &amp; Rincian
+            </div> 
+          </columns>
+
+          <columns large="4" class="header blue">
+            <div class="text-white p-4px">
+              Deskripsi
+            </div> 
+          </columns>
+        </row>
+
+        <row class="collapse border-bottom">
+          <columns>
+            <div class="p-4px">
+              <strong class="font-size-14px">
+                Paket Dasar: Rawat Inap 
+              </strong>
+            </div> 
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              Limit tahunan secara keseluruhan
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px p-4px">
+              {Overall Annual Limit}
+            </div>
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              Jenis Kamar
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px p-4px">
+              {RoomType}
+            </div>
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              Jaringan Rumah Sakit
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px p-4px">
+              {HospitalNetwork}
+            </div>
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              Jangkauan wilayah
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px p-4px">
+              {AreaCoverage}
+            </div>
+          </columns>
+        </row>
+
+        <row class="collapse border-bottom">
+          <columns>
+            <div class="p-4px">
+              <strong class="font-size-14px">
+                Opsi Rawat Jalan
+              </strong>
+            </div> 
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              Batas Tahunan
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px p-4px">
+              {Annual OP Limit}
+
+              <spacer size="6"></spacer>
+
+              <small>
+                <em>
+                  Catatan: Semua manfaat rawat jalan dikenakan copayment sebesar 10%.
+                </em>
+              </small>
+            </div>
+          </columns>
+        </row>
+
+        <row class="collapse border-bottom">
+          <columns>
+            <div class="p-4px">
+              <strong class="font-size-14px">
+                Deductible Tahunan &amp; Copayment
+              </strong>
+            </div> 
+          </columns>
+        </row>
+
+        <row class="border-bottom">
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              <em>
+                Deductible
+              </em>
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px p-4px">
+              {DeductibleOption}
+            </div>
+          </columns>
+        </row>
+
+        <row>
+          <columns large="8" class="border-right">
+            <div class="font-size-14px p-4px">
+              <em>
+                Copayment
+              </em>
+            </div>
+          </columns>
+
+          <columns large="4">
+            <div class="font-size-14px p-4px">
+              {CopaymentOption}
+            </div>
+          </columns>
+        </row>
+      </container>
+    </columns>
+  </row>
+
+  <spacer size="64"></spacer>
+</container>
+<!-- body -->
+
+<!-- payment -->
+<container>
+  <row>
+    <columns>
+      <img
+        src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/icon-yearly-premium.png"
+        alt="Premi Tahunan"
+        width="150"
+        height="150"
+        class="mx-auto"
+      />
+
+      <spacer size="6"></spacer>
+
+      <p class="text-center font-size-14px">
+        <strong>
+          Premi Tahunan
+        </strong>
+
+        <br />
+
+        Bayar sekaligus lebih hemat!
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-center text-primary">
+        <strong>
+          {AnnualPremium}
+        </strong>
+      </p>
+    </columns>
+
+    <columns>
+      <img
+        src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/icon-monthly-premium.png"
+        alt="Cicilan 6x"
+        width="150"
+        height="150"
+        class="mx-auto"
+      />
+
+      <spacer size="6"></spacer>
+
+      <p class="text-center font-size-14px">
+        <strong>
+          Cicilan 6x
+        </strong>
+
+        <br />
+
+        Fleksibel dan Terjangkau
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-center text-primary">
+        <strong>
+          {MonthlyPremium}
+        </strong>
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="42"></spacer>
+</container>
+<!-- payment -->
+
+<!-- cta -->
+<container>
+  <row>
+    <columns small="12">
+      <center>
+        <button href="#" class="primary large radius" align="center">
+          Review Plan
+        </button>
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="16"></spacer>
+
+  <row>
+    <columns small="12">
+      <center>
+        <button href="#" class="primary large radius" align="center">
+          Beli Sekarang
+        </button>
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="45"></spacer>
+</container>
+<!-- cta -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns>
+      <p>
+        Apakah kamu membutuhkan bantuan tim ahli kami? Bila kamu ingin melanjutkan percakapan dengan tim kami secara langsung, atau memiliki pertanyaan tentang manfaat, kami siap membantu.
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <p class="text-center">
+        <a href="tel:02150890822">
+          <strong class="font-size-20px">
+            021 5089 0822
+          </strong>
+        </a>
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="58"></spacer>
+</container>
+<!-- body -->
+
+{{> ipmi-usp-id}}
+
+{{> footer-protection-id}}
