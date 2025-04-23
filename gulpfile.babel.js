@@ -57,6 +57,7 @@ function pages() {
       '!src/pages/agent/**/*.html',
       '!src/pages/ci/**/*.html',
       '!src/pages/hcp/**/*.html',
+      '!src/pages/ipmi/**/*.html',
       '!src/pages/mv/**/*.html',
       '!src/pages/pa/**/*.html',
       '!src/pages/reward/**/*.html',
