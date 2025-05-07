@@ -9,8 +9,8 @@
         />
         
         <img
-        src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-pd1-03-202504231545.jpg"
-          alt="Segera Kirimkan Detail Informasiyang Telah Ditandatangani"
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-payment-202504301327.jpg"
+          alt="Selesaikan Pembayaranmu dan Dapatkan Perlindungannya!"
         />
       </columns>
     </row>
@@ -26,19 +26,65 @@
 
       <h1 class="text-center text-secondary">
         <strong>
-          Segera Kirimkan Detail Informasi
+          Selesaikan Pembayaranmu dan
           
           <br />
           
-          yang Telah Ditandatangani
+          Dapatkan Perlindungannya!
         </strong>
       </h1>
 
-      <spacer size="58"></spacer>
+      <spacer size="26"></spacer>
     </columns>
   </row>
 </container>
 <!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Penawaran:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {QuotationNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Berlaku hingga:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {QuotationExpiry}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+
+  <spacer size="60"></spacer>
+</container>
+<!-- quotation number -->
 
 <!-- body -->
 <container>
@@ -51,27 +97,43 @@
       <spacer size="9"></spacer>
 
       <p>
-        Kami masih menunggu ketentuan pertanggungan yang telah kamu tandatangani. Hal ini sangat penting mengingat seluruh proses ini harus selesai dalam waktu kurang dari 30  hari. Terlebih bila nanti dibutuhkan informasi tambahan terkait kondisi kesehatan atau lainnya.
-      </p>
-
-      <spacer size="9"></spacer>
-
-      <p>
-        Mohon luangkan waktu untuk mempelajari dan mendandatangani ketentuan pertanggungan. Kirimkan kembali kepada kami melalui email: <strong>{Email}</strong> agar dapat melanjutkan ke proses pembayaran dan penerbitan polis.
+        Terima kasih sudah memilih Roojai sebagai asuransi kesehatanmu.
       </p>
     </columns>
   </row>
 
-  <spacer size="26"></spacer>
+  <spacer size="9"></spacer>
 </container>
 <!-- body -->
+
+<!-- cta -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Untuk melanjutkan ke penerbitan polis, lakukan pembayaran melalui link berikut
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-center">
+        <a href="{PaymentLink}" target="_blank">
+          {PaymentLink}
+        </a>
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="42"></spacer>
+</container>
+<!-- cta -->
 
 <!-- timeline -->
 <container>
   <row>
     <columns>
       <img
-        src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/timeline-step-3-5-id-202504241724.jpg"
+        src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/timeline-step-4-5-id-202504241724.jpg"
         alt="Konfirmasi detail polis dan ringkasan pertanyaan kesehatan"
       />
     </columns>
@@ -110,7 +172,7 @@
   <row>
     <columns>
       <p>
-        Apakah kamu membutuhkan bantuan tim ahli kami? Bila kamu ingin melanjutkan percakapan dengan tim kami secara langsung, atau memiliki pertanyaan tentang manfaat, kami siap membantu.
+        Punya pertanyaan terkait pembayaran? Contact Center kami siap membantu
       </p>
 
       <spacer size="12"></spacer>
@@ -128,7 +190,5 @@
   <spacer size="58"></spacer>
 </container>
 <!-- body -->
-
-{{> ipmi-usp-id}}
 
 {{> footer-protection-id}}
