@@ -14,19 +14,19 @@
 
 <!-- subject -->
 <container>
+  <spacer size="28"></spacer>
+
   <row>
     <columns small="12" align="center">
-      <spacer size="28"></spacer>
-
       <h1 class="text-center text-secondary">
         <strong>
           Pastikan kamu tetap terproteksi
         </strong>
       </h1>
-
-      <spacer size="25"></spacer>
     </columns>
   </row>
+
+  <spacer size="25"></spacer>
 </container>
 <!-- subject -->
 
@@ -55,6 +55,8 @@
       </callout>
     </columns>
   </row>
+
+  <spacer size="60"></spacer>
 </container>
 <!-- policy number -->
 
@@ -62,8 +64,6 @@
 <container>
   <row>
     <columns small="12" align="center">
-      <spacer size="60"></spacer>
-
       <p class="text-secondary">
         <strong>
           Hai <strong>{fullName}</strong>, 
@@ -75,21 +75,21 @@
       <p class="text-secondary">
         Polis asuransi Mobil All Risk kamu dengan nomor polis <strong>{policyNumber}</strong> akan berakhir sekitar tiga minggu lagi. Tapi, kamu masih bisa perpanjang asuransi mobilmu. Hanya dengan klik tombol di bawah ini, perlindungan mobilmu untuk tahun berikutnya bisa segera aktif!
       </p>
-
-      <spacer size="20"></spacer>
     </columns>
   </row>
+
+  <spacer size="36"></spacer>
 </container>
 <!-- body -->
 
 <!-- Scenario: customer car is over 8 years old and registered as 'authorized garage' user -->
 <container>
+  <spacer size="22"></spacer>
+
   <row>
     <columns small="12" align="center">
-      <spacer size="23"></spacer>
-
       <callout class="gray">
-        <spacer size="11"></spacer>
+        <spacer size="15"></spacer>
 
         <p class="text-center">
           <strong>
@@ -100,20 +100,22 @@
         <p class="text-center">
           Berdasarkan ketentuan saat ini, bengkel resmi hanya dapat digunakan untuk usia kendaraan sampai dengan 8 tahun. Jika sebelumnya mobilmu terdaftar untuk perbaikan di bengkel resmi, maka akan dialihkan ke perbaikan di bengkel umum saat perpanjangan ini. 
         </p>
+        
+        <spacer size="15"></spacer>
       </callout>
-
-      <spacer size="25"></spacer>
     </columns>
   </row>
+
+  <spacer size="32"></spacer>
 </container>
 <!-- Scenario: customer car is over 8 years old and registered as 'authorized garage' user -->
 
 <!-- CTA -->
 <container>
+  <spacer size="32"></spacer>
+
   <row>
     <columns small="12">
-      <spacer size="39"></spacer>
-
       <center>
         <button href="#" class="primary large radius text-center" align="center">
           <span class="text-center">
@@ -121,10 +123,10 @@
           </span>
         </button>
       </center>
-
-      <spacer size="58"></spacer>
     </columns>
   </row>
+
+  <spacer size="58"></spacer>
 </container>
 <!-- CTA -->
 
@@ -148,12 +150,11 @@
         <br />
 
         Total premium setahun: <strong>Rp{6*monthlyPremium}</strong> 
-
       </p>
-
-      <spacer size="22"></spacer>
     </columns>
   </row>
+
+  <spacer size="18"></spacer>
 </container>
 <!-- Scenario: customer eligible for instalment -->
 
@@ -173,12 +174,11 @@
         <br />
 
         <strong>Rp{annualPremium}</strong> / tahun 
-
       </p>
-
-      <spacer size="22"></spacer>
     </columns>
   </row>
+
+  <spacer size="36"></spacer>
 </container>
 <!-- Full payment -->
 
@@ -186,25 +186,57 @@
 <container>
   <row>
     <columns small="12" align="center">
-      <spacer size="16"></spacer>
-
       <h3 class="text-secondary">
         <strong>
-          Manfaat asuransimu saat ini:
+          Manfaat asuransi [product name]mu saat ini:
         </strong>
       </h3>
 
       <ul>
-        
-        <li style="margin-bottom:8px">
-          {full list of coverage }
+        <li>
+          {Perbaiki di {bengkel umum/bengkel Resmi} rekanan Roojai}
         </li>
- 
-      </ul>
 
-      <spacer size="12"></spacer>
+        <li>
+          {Emergency Roadside Assistance}
+        </li>
+
+        <li>
+          {Tanggung Jawab Hukum Pihak Ketiga {Rp5.000.000}} 
+        </li>
+
+        <li>
+          {Terorisme &amp; Sabotase} 
+        </li>
+
+        <li>
+          {Banjir dan Angin Topan} 
+        </li>
+
+        <li>
+          {Huru-Hara} 
+        </li>
+
+        <li>
+          {Kecelakaan Diri {Rp5.000.000}} 
+        </li>
+
+        <li>
+          {Gempa Bumi, Gunung Meletus, dan Tsunami}
+        </li>
+
+        <li>
+          {Uang Transportasi}
+        </li>
+
+        <li>
+          {Biaya Risiko Sendiri {Rp300.000 /kejadian}}
+        </li>
+      </ul>
     </columns>
   </row>
+
+  <spacer size="47"></spacer>
 </container>
 <!-- Current coverage -->
 
@@ -212,8 +244,6 @@
  <container>
   <row>
     <columns small="12">
-      <spacer size="39"></spacer>
-
       <center>
         <button href="#" class="primary large radius text-center" align="center">
           <span class="text-center">
@@ -221,10 +251,10 @@
           </span>
         </button>
       </center>
-
-      <spacer size="58"></spacer>
     </columns>
   </row>
+
+  <spacer size="58"></spacer>
 </container>
 <!-- CTA -->
 
@@ -237,11 +267,10 @@
       <p class="text-center text-secondary">
         Jika kamu membutuhkan bantuan dan informasi lebih lanjut, silakan hubungi kami di <a href="tel:02150890821" class="text-primary">021 5089 0821</a>.
       </p>
-
-      <spacer size="59"></spacer>
-
     </columns>
   </row>
+
+  <spacer size="59"></spacer>
 </container>
 <!-- body -->
 
