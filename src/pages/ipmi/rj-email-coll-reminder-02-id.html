@@ -1,0 +1,184 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-pd1-04-202504231545.jpg"
+          alt="Segera Lakukan Pembayaran"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Segera Lakukan Pembayaran Agar
+          
+          <br />
+          
+          Perlindunganmu Tetap Aktif
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Polis:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {PolicyNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+
+  <spacer size="60"></spacer>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai {PolicyHolderFirstName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Pembayaran premi asuransi kesehatanmu telah 7 hari melewati tanggal jatuh tempo saat email ini dikirimkan. Mohon segera lakukan pembayaran agar perlindunganmu tetap aktif.
+      </p>
+
+      <spacer size="17"></spacer>
+
+      <p>
+        <strong>Premi yang perlu kamu bayarkan:</strong>
+      
+        <br />
+
+        Rp{InstalmentAmount}
+      </p>
+
+      <spacer size="17"></spacer>
+
+      <p>
+        <strong>Tanggal Jatuh Tempo:</strong>
+      
+        <br />
+
+        {PaymentDueDate}
+      </p>
+
+      <spacer size="17"></spacer>
+
+      <!-- Scenario: Credit Card Template -->
+      <p>
+        Mohon pastikan kartu kreditmu masih berlaku atau limit kartu masih mencukupi untuk pembayaran tagihanmu, ya. Kami akan coba memproses pembayaranmu kembali dalam beberapa hari ke depan.
+      </p>
+
+      <spacer size="42"></spacer>
+
+      <!-- cta -->
+      <container>
+        <row>
+          <columns small="12">
+            <center>
+              <button href="#" class="primary large radius" align="center">
+                Ubah Kartu Pembayaran
+              </button>
+            </center>
+          </columns>
+        </row>
+
+        <spacer size="45"></spacer>
+      </container>
+      <!-- cta -->
+      <!-- Scenario: Credit Card Template -->
+
+      <!-- Scenario: Virtual Account Template -->
+      <p>
+        Untuk menyelesaikan pembayaran, mohon transfer sesuai dengan jumlah yang tertera diatas ke nomor Virtual Account berikut ini <strong>{VANumber}</strong>.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Klik link dibawah ini untuk melihat cara pembayaran secara detail:
+      </p>
+
+      <spacer size="15"></spacer>
+            
+      <p class="text-center">
+        <a href="https://www.roojai.co.id/how-to-pay/" target="_blank">
+          https://www.roojai.co.id/how-to-pay/
+        </a>
+      </p>
+
+      <spacer size="31"></spacer>
+      <!-- Scenario: Virtual Account Template -->
+
+      <p>
+        Tim Contact Center kami siap membantu bila kamu membutuhkan bantuan!
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-center">
+        <a href="tel:02150890822">
+          <strong class="font-size-20px">
+            Hubungi: 021 5089 0822
+          </strong>
+        </a>
+      </p>
+
+      <spacer size="17"></spacer>
+      
+      <p class="text-center">
+        <small>
+          <em>
+            Apabila kamu sudah melakukan pembayaran, abaikan pesan ini.
+          </em>
+        </small>
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+
+{{> footer-protection-id}}

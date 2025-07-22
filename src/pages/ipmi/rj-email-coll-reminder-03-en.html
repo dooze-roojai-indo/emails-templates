@@ -1,0 +1,202 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-payment-202504301327.jpg"
+          alt="Payment Reminder"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Immediate Action Required
+          
+          <br />
+          
+          to Maintain Your Coverage
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {PolicyNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Amount Due:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {InstalmentAmount}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Payment Due Date:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {PaymentDueDate}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+
+  <spacer size="60"></spacer>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hi {PolicyHolderFirstName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Just a quick reminder – it looks like your health insurance payment is now 14 days overdue.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        To keep your coverage active and avoid any issues, please make your payment as soon as you can. Without it, we won’t be able to process any claims, and your coverage may be suspended. 
+      </p>
+
+      <spacer size="17"></spacer>
+
+      <!-- Scenario: Credit Card Template -->
+      <p>
+        To ensure uninterrupted coverage, please make sure the credit card we have on file is still valid and has sufficient credit limit for your payment.
+      </p>
+
+      <spacer size="42"></spacer>
+
+      <!-- cta -->
+      <container>
+        <row>
+          <columns small="12">
+            <center>
+              <button href="#" class="primary large radius" align="center">
+                Change Payment Card
+              </button>
+            </center>
+          </columns>
+        </row>
+
+        <spacer size="45"></spacer>
+      </container>
+      <!-- cta -->
+      <!-- Scenario: Credit Card Template -->
+
+      <!-- Scenario: Virtual Account Template -->
+      <p>
+        To complete your payment, please transfer the amount due to this Virtual Account: <strong>{VANumber}</strong>
+      </p>
+      
+      <spacer size="9"></spacer>
+
+      <p>
+        Click the link below for detailed payment instructions:
+      </p>
+
+      <spacer size="15"></spacer>
+            
+      <p class="text-center">
+        <a href="https://www.roojai.co.id/how-to-pay/" target="_blank">
+          https://www.roojai.co.id/how-to-pay/
+        </a>
+      </p>
+
+      <spacer size="31"></spacer>
+      <!-- Scenario: Virtual Account Template -->
+
+      <p>
+        Tim Contact Center kami siap membantu bila kamu membutuhkan bantuan!
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p class="text-center">
+        <a href="tel:02150890822">
+          <strong class="font-size-20px">
+            Hubungi: 021 5089 0822
+          </strong>
+        </a>
+      </p>
+
+      <spacer size="17"></spacer>
+      
+      <p class="text-center">
+        <small>
+          <em>
+            Please ignore this message if you’ve already made your payment.
+          </em>
+        </small>
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+
+{{> footer-protection-id}}

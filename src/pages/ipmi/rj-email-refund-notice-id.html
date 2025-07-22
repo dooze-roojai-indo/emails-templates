@@ -1,0 +1,148 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-pd1-04-202504231545.jpg"
+          alt="Pengembalian Dana sedang Dalam Proses!"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Pengembalian Dana sedang Dalam Proses!
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Polis:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {PolicyNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+
+  <spacer size="60"></spacer>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hai {CustomerName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Pengembalian dana sedang diproses, berikut detailnya:
+      </p>
+
+      <spacer size="25"></spacer>
+
+      <row>
+        <columns small="6">
+          Jumlah pengembalian dana
+        </columns>
+
+        <columns small="6">
+          : Rp{amount}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <row>
+        <columns small="6">
+          Tanggal pengembalian
+        </columns>
+
+        <columns small="6">
+          : {DateProcessed}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <row>
+        <columns small="6">
+          Metode pembayaran
+        </columns>
+
+        <columns small="6">
+          : {Method}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <spacer size="25"></spacer>
+
+      <p>
+        Proses pengembalian dana berlangsung maksimum {BusinessDays} hari kerja.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Ada pertanyaan, atau ada sesuatu yang tidak sesuai? Segera hubungi tim Contact Center kami bila kamu butuh bantuan!
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <p class="text-center">
+        <a href="tel:02150890822">
+          <strong class="font-size-20px">
+            Hubungi: 021 5089 0822
+          </strong>
+        </a>
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+
+{{> footer-protection-id}}
