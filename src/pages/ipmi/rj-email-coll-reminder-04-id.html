@@ -1,0 +1,223 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-payment-202504301327.jpg"
+          alt="Segera Lakukan Pembayaran Agar Perlindunganmu Tetap Aktif"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Segera Lakukan Pembayaran Agar
+          
+          <br />
+          
+          Perlindunganmu Tetap Aktif
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Nomor Polis:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {PolicyNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+
+  <spacer size="32"></spacer>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <row class="tabular">
+        <columns>
+          <row class="header">
+            <columns class="border-right">
+              <p class="text-center">
+                <span class="font-size-14px text-white">Jumlah yang harus dibayar</span>
+              </p>
+            </columns>
+
+            <columns>
+              <p class="text-center">
+                <span class="font-size-14px text-white">Tanggal jatuh tempo</span>
+              </p>
+            </columns>
+          </row>
+
+          <row class="body">
+            <columns class="border-right">
+              <p class="text-center">
+                {InstallmentAmount}
+              </p>
+            </columns>
+
+            <columns>
+              <p class="text-center">
+                {InstallmentAmount}
+              </p>
+            </columns>
+          </row>
+        </columns>
+      </row>
+
+      <spacer size="41"></spacer>
+
+      <p>
+        Hai {PolicyHolderFirstName},
+      </p>
+      
+      <spacer size="9"></spacer>
+
+      <p>
+        Pembayaran Premi Asuransi Kesehatanmu sudah terlambat 25 hari. Kami mengerti kesibukan kadang menjadi kendala. Namun kami ingin memastikan kamu tetap terlindungi. 
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Keterlambatan dalam membayar premi dapat menyebabkan: 
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <ul>
+        <li>
+          <strong>Permohonan klaim tidak dapat diproses</strong> hingga pembayaran telah dilakukan
+        </li>
+
+        <spacer size="9"></spacer>
+
+        <li>
+          <strong>Perlindungan dapat dihentikan</strong> apabila kamu belum melakukan pembayaran
+        </li>
+      </ul>
+
+      <spacer size="17"></spacer>
+
+      <!-- Scenario: Credit Card Template -->
+      <p>
+        Mohon pastikan kartu kreditmu masih berlaku atau limit kartu masih mencukupi untuk pembayaran tagihanmu, ya. Kami akan coba memproses pembayaranmu kembali dalam beberapa hari ke depan.
+      </p>
+
+      <spacer size="42"></spacer>
+
+      <!-- cta -->
+      <container>
+        <row>
+          <columns small="12">
+            <center>
+              <button href="#" class="primary large radius" align="center">
+                Ubah Kartu Pembayaran
+              </button>
+            </center>
+          </columns>
+        </row>
+
+        <spacer size="45"></spacer>
+      </container>
+      <!-- cta -->
+      <!-- Scenario: Credit Card Template -->
+
+      <!-- Scenario: Virtual Account Template -->
+      <p>
+        Untuk menyelesaikan pembayaran, mohon transfer sesuai dengan jumlah yang tertera diatas ke nomor Virtual Account berikut ini <strong>{VANumber}</strong>.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Klik link di bawah ini untuk melihat cara pembayaran secara detail:
+      
+        <br />
+
+        <a
+          href="https://www.roojai.co.id/how-to-pay/"
+          target="_blank"
+        >
+          https://www.roojai.co.id/how-to-pay/
+        </a>
+      </p>
+
+      <spacer size="31"></spacer>
+      <!-- Scenario: Virtual Account Template -->
+
+      <p>
+        Tim Contact Center kami siap membantu bila kamu membutuhkan bantuan!
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
+
+      <spacer size="17"></spacer>
+      
+      <p class="text-center">
+        <small>
+          <em>
+            Apabila kamu sudah melakukan pembayaran, abaikan pesan ini.
+          </em>
+        </small>
+      </p>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+
+{{> footer-protection-id}}

@@ -1,0 +1,152 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-ipmi-document-20250723.jpg"
+          alt="Refund Processing Underway"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Refund Processing Underway
+        </strong>
+      </h1>
+
+      <spacer size="25"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- quotation number -->
+<container>
+  <row class="collapse">
+    <columns small="12">
+      <callout class="primary" align="center">
+        <spacer size="27"></spacer>
+
+        <p class="text-center">
+          <strong>
+            Policy Number:
+          </strong>
+        </p>
+
+        <spacer size="5"></spacer>
+
+        <h4 class="text-center text-white">
+          <strong>
+            {PolicyNumber}
+          </strong>
+        </h4>
+
+        <spacer size="13"></spacer>
+      </callout>
+    </columns>
+  </row>
+
+  <spacer size="60"></spacer>
+</container>
+<!-- quotation number -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hi {CustomerName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        We're currently processing your refund with the following details:
+      </p>
+
+      <spacer size="25"></spacer>
+
+      <row>
+        <columns small="6" large="4">
+          Refund Amount
+        </columns>
+
+        <columns small="6" large="8">
+          : IDR{amount}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <row>
+        <columns small="6" large="4">
+          Processing Date
+        </columns>
+
+        <columns small="6" large="8">
+          : {DateProcessed}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <row>
+        <columns small="6" large="4">
+          Payment Method
+        </columns>
+
+        <columns small="6" large="8">
+          : {Method}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <spacer size="25"></spacer>
+
+      <p>
+        The refund process may take up to {BusinessDays} business days to complete. 
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        If you have any questions or need assistance, our support team is here to help:
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
+
+      <spacer size="60"></spacer>
+    </columns>
+  </row>
+</container>
+
+{{> footer-protection-en}}

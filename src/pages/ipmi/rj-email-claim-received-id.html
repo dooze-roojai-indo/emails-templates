@@ -1,0 +1,195 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-claim-received-20250730.jpg"
+          alt="Klaim Sedang Dalam Proses"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Klaim Sedang Dalam Proses
+        </strong>
+      </h1>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Yth. {Bapak/Ibu} {PolicyholderName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Terima kasih atas kepercayaan {Bapak/Ibu} kepada PT Roojai Insurance Agent sebagai perwakilan sah dari PT Sompo Insurance Indonesia terkait dengan perlindungan asuransi bagi {Bapak/Ibu}. 
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Sehubungan dengan pengajuan klaim reimbursement {Bapak/Ibu}, bersama ini kami informasikan bahwa pengajuan klaim {Bapak/Ibu} telah kami terima. 
+      </p>
+
+      <spacer size="25"></spacer>
+
+      <row class="tabular">
+        <columns>
+          <row class="header">
+            <columns>
+              <span class="font-size-14px text-white">Informasi Polis</span>
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" large="4" class="attribute">
+              Nama Produk
+            </columns>
+
+            <columns small="4" large="8">
+              Asuransi Kesehatan Individu Roojai
+            </columns>
+          </row>
+          
+          <row class="body border-bottom">
+            <columns small="6" large="4" class="attribute">
+              Pemegang Polis
+            </columns>
+
+            <columns small="4" large="8">
+              {PolicyholderName}
+            </columns>
+          </row>
+
+          <row class="body">
+            <columns small="6" large="4" class="attribute">
+              Nomor Polis
+            </columns>
+
+            <columns small="4" large="8">
+              {PolicyNumber}
+            </columns>
+          </row>
+        </columns>
+      </row>
+
+      <spacer size="16"></spacer>
+      
+      <row class="tabular">
+        <columns>
+          <row class="header">
+            <columns>
+              <span class="font-size-14px text-white">Informasi Klaim</span>
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" large="4" class="attribute">
+              Nomor Klaim
+            </columns>
+
+            <columns small="4" large="8">
+              {Claim Number}
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" large="4" class="attribute">
+              Nama Pasien
+            </columns>
+
+            <columns small="4" large="8">
+              {PatientName}
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" large="4" class="attribute">
+              Tanggal Pengobatan
+            </columns>
+
+            <columns small="4" large="8">
+              {TreatmentDate}
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" large="4" class="attribute">
+              Total Klaim
+            </columns>
+
+            <columns small="4" large="8">
+              {ClaimAmount}
+            </columns>
+          </row>
+      
+          <row class="body">
+            <columns small="6" large="4" class="attribute">
+              Tanggal Pengajuan
+            </columns>
+
+            <columns small="4" large="8">
+              {ClaimSubmissionDate}
+            </columns>
+          </row>
+        </columns>
+      </row>
+
+      <spacer size="25"></spacer>
+
+      <p>
+        Tim kami sedang menganalisa detail klaim dan akan memberikan informasi selanjutnya dalam waktu maks. 5 hari kerja. Jika diperlukan informasi tambahan, kami akan segera menghubungi {Bapak/Ibu}.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Tim kami sedang menganalisa detail klaim dan akan memberikan informasi selanjutnya dalam waktu maks. 5 hari kerja. Jika diperlukan informasi tambahan, kami akan segera menghubungi {Bapak/Ibu}.
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
+
+      <spacer size="64"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-protection-id}}

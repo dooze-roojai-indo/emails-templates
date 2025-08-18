@@ -1,0 +1,116 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-termination-20250730.jpg"
+          alt="Your Coverage Is No Longer Active"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Your Coverage Is No Longer Active
+        </strong>
+      </h1>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Hi {CustomerName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        We want to inform you that your Roojai Individual Health Insurance policy has been cancelled.
+      </p>
+
+      <spacer size="25"></spacer>
+
+      <row>
+        <columns small="6" large="4">
+          Policy Number
+        </columns>
+
+        <columns small="4" large="8">
+          : {PolicyNumber}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <row>
+        <columns small="6" large="4">
+          Date of Cancellation
+        </columns>
+
+        <columns small="4" large="8">
+          : {CancellationDate}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <row>
+        <columns small="6" large="4">
+          Reason of Cancellation
+        </columns>
+
+        <columns small="4" large="8">
+          : {CancellationReason}
+
+          <spacer size="9"></spacer>
+        </columns>
+      </row>
+
+      <spacer size="25"></spacer>
+
+      <p>
+        If you feel there’s been an error, if you have any questions or need assistance, please reach out to our support team:
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
+
+      <spacer size="64"></spacer>
+    </columns>
+  </row>
+</container>
+
+{{> footer-protection-en}}
