@@ -10,7 +10,7 @@
         
         <img
           src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-termination-20250730.jpg"
-          alt="Perlindunganmu Sudah Tidak Aktif"
+          alt="Claim Declined"
         />
       </columns>
     </row>
@@ -26,7 +26,7 @@
 
       <h1 class="text-center text-secondary">
         <strong>
-          Perlindunganmu Sudah Tidak Aktif
+          Claim Declined
         </strong>
       </h1>
 
@@ -41,57 +41,25 @@
   <row>
     <columns small="12" align="center">
       <p>
-        Hai {CustomerName},
+        Dear {Mr./Ms.} {PolicyholderName},
       </p>
 
       <spacer size="9"></spacer>
 
       <p>
-        Kami ingin menginformasikan bahwa  Asuransi Kesehatan Individu Roojai milikmu telah dibatalkan.
+        Thank you for trusting PT Roojai Insurance Agent as an authorized representative of PT Sompo Insurance Indonesia related to your insurance protection.
       </p>
 
-      <spacer size="25"></spacer>
-
-      <row>
-        <columns small="6" large="4">
-          Nomor Polis
-        </columns>
-
-        <columns small="4" large="8">
-          : {PolicyNumber}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <row>
-        <columns small="6" large="4">
-          Tanggal Pembatalan
-        </columns>
-
-        <columns small="4" large="8">
-          : {CancellationDate}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <row>
-        <columns small="6" large="4">
-          Alasan Pembatalan
-        </columns>
-
-        <columns small="4" large="8">
-          : {CancellationReason}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <spacer size="25"></spacer>
+      <spacer size="9"></spacer>
 
       <p>
-        Ada pertanyaan, atau ada sesuatu yang tidak sesuai? Segera hubungi tim Contact Center kami bila kamu butuh bantuan!
+       We’ve completed the review of your claim (Claim No: <strong>{Claim Number}</strong>), and we regret to inform you that it has not been approved. For more details regarding this decision, please refer to the attached letter. It outlines the reasons and any relevant information related to the assessment.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        If you have questions or would like to discuss this further, feel free to contact us at the number below. Thank you for your understanding.
       </p>
 
       <spacer size="12"></spacer>
@@ -112,5 +80,6 @@
     </columns>
   </row>
 </container>
+<!-- body -->
 
-{{> footer-protection-id}}
+{{> footer-protection-en}}

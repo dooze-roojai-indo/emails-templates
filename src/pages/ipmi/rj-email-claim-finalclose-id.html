@@ -10,7 +10,7 @@
         
         <img
           src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-termination-20250730.jpg"
-          alt="Perlindunganmu Sudah Tidak Aktif"
+          alt="Penutupan Klaim"
         />
       </columns>
     </row>
@@ -26,7 +26,7 @@
 
       <h1 class="text-center text-secondary">
         <strong>
-          Perlindunganmu Sudah Tidak Aktif
+          Penutupan Klaim
         </strong>
       </h1>
 
@@ -41,57 +41,25 @@
   <row>
     <columns small="12" align="center">
       <p>
-        Hai {CustomerName},
+        Yth. {Bapak/Ibu} {PolicyholderName},
       </p>
 
       <spacer size="9"></spacer>
 
       <p>
-        Kami ingin menginformasikan bahwa  Asuransi Kesehatan Individu Roojai milikmu telah dibatalkan.
+        Terima kasih atas kepercayaan {Bapak/Ibu} kepada PT Roojai Insurance Agent sebagai perwakilan sah dari PT Sompo Insurance Indonesia terkait dengan perlindungan asuransi bagi {Bapak/Ibu}.
       </p>
 
-      <spacer size="25"></spacer>
-
-      <row>
-        <columns small="6" large="4">
-          Nomor Polis
-        </columns>
-
-        <columns small="4" large="8">
-          : {PolicyNumber}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <row>
-        <columns small="6" large="4">
-          Tanggal Pembatalan
-        </columns>
-
-        <columns small="4" large="8">
-          : {CancellationDate}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <row>
-        <columns small="6" large="4">
-          Alasan Pembatalan
-        </columns>
-
-        <columns small="4" large="8">
-          : {CancellationReason}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <spacer size="25"></spacer>
+      <spacer size="9"></spacer>
 
       <p>
-        Ada pertanyaan, atau ada sesuatu yang tidak sesuai? Segera hubungi tim Contact Center kami bila kamu butuh bantuan!
+        Mengingat {Bapak/Ibu} tidak dapat melengkapi dokumen yang kami butuhkan dalam waktu 30 hari kalender sejak surat pertama kami kirimkan, maka dengan sangat menyesal kami sampaikan bahwa kami tidak dapat memproses lebih lanjut klaim yang {{Bapak/Ibu}} ajukan (No. Klaim: <strong>{ClaimNumber}</strong>). 
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Bila ada kekeliruan atau ada pertanyaan, silakan hubungi kami di nomor di bawah ini. Terima kasih atas perhatian dan pengertiannya.
       </p>
 
       <spacer size="12"></spacer>
@@ -112,5 +80,6 @@
     </columns>
   </row>
 </container>
+<!-- body -->
 
 {{> footer-protection-id}}

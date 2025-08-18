@@ -1,0 +1,143 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-approval-20250730.jpg"
+          alt="Klaim Disetujui Secara Ex-Gratia"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Klaim Disetujui Secara Ex-Gratia
+        </strong>
+      </h1>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Yth. {Bapak/Ibu} {PolicyholderName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Terima kasih atas kepercayaan {Bapak/Ibu} kepada PT Roojai Insurance Agent sebagai perwakilan sah dari PT Sompo Insurance Indonesia terkait dengan perlindungan asuransi bagi {Bapak/Ibu}.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Kami telah menganalisa klaim {Bapak/Ibu} (No. Klaim: <strong>{ClaimNumber}</strong>) dan dengan senang hati menginformasikan bahwa klaim tersebut telah disetujui secara ex-gratia, dengan perincian sebagai berikut:
+      </p>
+
+      <spacer size="25"></spacer>
+
+      <row class="tabular">
+        <columns>
+          <row class="body border-bottom">
+            <columns small="6" class="attribute">
+              Amount Requested
+            </columns>
+
+            <columns small="6">
+              Rp{TotalClaimAmount}
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" class="attribute">
+              Claims Paid
+            </columns>
+
+            <columns small="6">
+              Rp{AmountPaid}
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" class="attribute">
+              Not Eligible
+            </columns>
+
+            <columns small="6">
+              Rp{NotEligible}
+            </columns>
+          </row>
+
+          <row class="body">
+            <columns small="6" class="attribute">
+              Reasons for Items Not Eligible
+            </columns>
+
+            <columns small="6">
+              {ReasonsNotEligible}
+            </columns>
+          </row>
+        </columns>
+      </row>
+
+      <spacer size="25"></spacer>
+
+      <p>
+        Persetujuan secara ex-gratia artinya adalah, meskipun klaim ini berada di luar ketentuan pertanggungan yang berlaku, kami memberikan pengecualian sebagai bentuk itikad baik. Perlu diketahui bahwa keputusan ini tidak mengubah syarat dan ketentuan polis {{Bapak/Ibu}} kedepannya.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Kami berharap keputusan ini memberikan ketenangan bagi {Bapak/Ibu}. Jika ada pertanyaan atau membutuhkan penjelasan lebih lanjut, silakan hubungi kami di nomor di bawah ini. Terima kasih atas kepercayaan {Bapak/Ibu}.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Jika ada pertanyaan atau memerlukan bantuan, silakan hubungi kami di nomor di bawah ini.
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
+
+      <spacer size="64"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+{{> footer-protection-id}}

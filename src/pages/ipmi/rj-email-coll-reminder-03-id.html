@@ -9,7 +9,7 @@
         />
         
         <img
-          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-pd1-04-202504231545.jpg"
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-payment-202504301327.jpg"
           alt="Segera Lakukan Pembayaran Agar Perlindunganmu Tetap Aktif"
         />
       </columns>
@@ -62,43 +62,11 @@
         </h4>
 
         <spacer size="13"></spacer>
-
-        <p class="text-center">
-          <strong>
-            Jumlah yang harus dibayar:
-          </strong>
-        </p>
-
-        <spacer size="5"></spacer>
-
-        <h4 class="text-center text-white">
-          <strong>
-            {InstalmentAmount}
-          </strong>
-        </h4>
-
-        <spacer size="13"></spacer>
-
-        <p class="text-center">
-          <strong>
-            Tanggal jatuh tempo:
-          </strong>
-        </p>
-
-        <spacer size="5"></spacer>
-
-        <h4 class="text-center text-white">
-          <strong>
-            {PaymentDueDate}
-          </strong>
-        </h4>
-
-        <spacer size="13"></spacer>
       </callout>
     </columns>
   </row>
 
-  <spacer size="60"></spacer>
+  <spacer size="32"></spacer>
 </container>
 <!-- quotation number -->
 
@@ -106,6 +74,40 @@
 <container>
   <row>
     <columns small="12" align="center">
+      <row class="tabular">
+        <columns>
+          <row class="header">
+            <columns class="border-right">
+              <p class="text-center">
+                <span class="font-size-14px text-white">Jumlah yang harus dibayar</span>
+              </p>
+            </columns>
+
+            <columns>
+              <p class="text-center">
+                <span class="font-size-14px text-white">Tanggal jatuh tempo</span>
+              </p>
+            </columns>
+          </row>
+
+          <row class="body">
+            <columns class="border-right">
+              <p class="text-center">
+                {InstallmentAmount}
+              </p>
+            </columns>
+
+            <columns>
+              <p class="text-center">
+                {InstallmentAmount}
+              </p>
+            </columns>
+          </row>
+        </columns>
+      </row>
+
+      <spacer size="41"></spacer>
+      
       <p>
         Hai {PolicyHolderFirstName},
       </p>
@@ -156,13 +158,14 @@
       <spacer size="9"></spacer>
 
       <p>
-        Klik link dibawah ini untuk melihat cara pembayaran secara detail:
-      </p>
+        Klik link di bawah ini untuk melihat cara pembayaran secara detail:
+        
+        <br />
 
-      <spacer size="15"></spacer>
-            
-      <p class="text-center">
-        <a href="https://www.roojai.co.id/how-to-pay/" target="_blank">
+        <a
+          href="https://www.roojai.co.id/how-to-pay/"
+          target="_blank"
+        >
           https://www.roojai.co.id/how-to-pay/
         </a>
       </p>
@@ -174,15 +177,19 @@
         Tim Contact Center kami siap membantu bila kamu membutuhkan bantuan!
       </p>
 
-      <spacer size="9"></spacer>
+      <spacer size="12"></spacer>
 
-      <p class="text-center">
-        <a href="tel:02150890822">
-          <strong class="font-size-20px">
-            Hubungi: 021 5089 0822
-          </strong>
-        </a>
-      </p>
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
 
       <spacer size="17"></spacer>
       

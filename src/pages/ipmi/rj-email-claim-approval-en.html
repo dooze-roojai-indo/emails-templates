@@ -1,0 +1,155 @@
+<!-- header -->
+<wrapper class="header">
+  <container>
+    <row class="collapse">
+      <columns small="12">
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/common/header-white-202504221523.jpg"
+          alt="Roojai.co.id online insurance"
+        />
+        
+        <img
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-approval-20250730.jpg"
+          alt="Claim Approved"
+        />
+      </columns>
+    </row>
+  </container>
+</wrapper>
+<!-- header -->
+
+<!-- subject -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <spacer size="28"></spacer>
+
+      <h1 class="text-center text-secondary">
+        <strong>
+          Claim Approved
+        </strong>
+      </h1>
+
+      <spacer size="58"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- subject -->
+
+<!-- body -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <p>
+        Dear {Mr./Ms.} {PolicyholderName},
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Thank you for trusting PT Roojai Insurance Agent as an authorized representative of PT Sompo Insurance Indonesia related to your insurance protection.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Your claim (Claim No: <strong>{Claim Number}</strong>) has been approved with the following details:
+      </p>
+
+      <spacer size="25"></spacer>
+
+      <row class="tabular">
+        <columns>
+          <row class="body border-bottom">
+            <columns small="6" class="attribute">
+              Amount Requested
+            </columns>
+
+            <columns small="6">
+              Rp{TotalClaimAmount}
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" class="attribute">
+              Claims Paid
+            </columns>
+
+            <columns small="6">
+              Rp{AmountPaid}
+            </columns>
+          </row>
+
+          <row class="body border-bottom">
+            <columns small="6" class="attribute">
+              Not Eligible
+            </columns>
+
+            <columns small="6">
+              Rp{NotEligible}
+            </columns>
+          </row>
+
+          <row class="body">
+            <columns small="6" class="attribute">
+              Reasons for Items Not Eligible
+            </columns>
+
+            <columns small="6">
+              {ReasonsNotEligible}
+            </columns>
+          </row>
+        </columns>
+      </row>
+
+      <spacer size="25"></spacer>
+
+      <p>
+        IIf you have any questions or concerns about this claim decision, please let us know within 14 calendar days at the number below. If we don’t hear from you by then, we’ll assume that the information provided is clear and acceptable.  
+      </p>
+
+      <spacer size="12"></spacer>
+
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
+
+      <spacer size="60"></spacer>
+    </columns>
+  </row>
+</container>
+<!-- body -->
+
+<!-- icons -->
+<container>
+  <row>
+    <columns small="12" align="center">
+      <h3 class="text-secondary text-center">
+        Claim Satisfaction Survey
+      </h3>
+
+      <spacer size="8"></spacer>
+
+      <p>
+        We’d love to hear about your experience. On a scale of <strong>1 to 10</strong>, how likely are you to recommend us to friends or family? Click one of the icons below to begin your answer. 
+      </p>
+
+      <spacer size="26"></spacer>
+    </columns>
+  </row>
+
+  {{> nps-rating}}
+
+  <spacer size="64"></spacer>
+</container>
+<!-- icons -->
+
+{{> footer-protection-en}}

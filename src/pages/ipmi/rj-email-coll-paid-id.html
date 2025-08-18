@@ -9,8 +9,8 @@
         />
         
         <img
-          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-ipmi-document-20250723.jpg"
-          alt="Refund Processing Underway"
+          src="https://www.roojai.co.id/EmailTemplate/v2/ipmi/header-quotation-20250421.jpg"
+          alt="Pembayaran Asuransi Kesehatan Berhasil"
         />
       </columns>
     </row>
@@ -26,7 +26,7 @@
 
       <h1 class="text-center text-secondary">
         <strong>
-          Refund Processing Underway
+          Pembayaran Asuransi Kesehatan Berhasil
         </strong>
       </h1>
 
@@ -45,7 +45,7 @@
 
         <p class="text-center">
           <strong>
-            Policy Number:
+            Nomor Polis:
           </strong>
         </p>
 
@@ -71,63 +71,29 @@
   <row>
     <columns small="12" align="center">
       <p>
-        Hi {CustomerName},
+        Hai {PolicyHolderFirstName},
       </p>
 
       <spacer size="9"></spacer>
 
       <p>
-        We're currently processing your refund with the following details:
-      </p>
+        Terima kasih, pembayaran polis asuransimu telah kami terima!
 
-      <spacer size="25"></spacer>
+        <br />
 
-      <row>
-        <columns small="6" large="4">
-          Refund Amount
-        </columns>
-
-        <columns small="6" large="8">
-          : IDR{amount}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <row>
-        <columns small="6" large="4">
-          Processing Date
-        </columns>
-
-        <columns small="6" large="8">
-          : {DateProcessed}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <row>
-        <columns small="6" large="4">
-          Payment Method
-        </columns>
-
-        <columns small="6" large="8">
-          : {Method}
-
-          <spacer size="9"></spacer>
-        </columns>
-      </row>
-
-      <spacer size="25"></spacer>
-
-      <p>
-        The refund process may take up to {BusinessDays} business days to complete. 
+        Perlindunganmu dan seluruh manfaat asuransi kesehatanmu aktif dan dapat digunakan.
       </p>
 
       <spacer size="9"></spacer>
 
       <p>
-        If you have any questions or need assistance, our support team is here to help:
+        Pembayaran untuk bulan selanjutnya sebesar {currentInstallment} dari total premi {totalInstalment} akan jatuh tempo pada tanggal {nextDueDate}.
+      </p>
+
+      <spacer size="9"></spacer>
+
+      <p>
+        Segera hubungi tim Contact Center kami bila kamu butuh bantuan atau memiliki pertanyaan! 
       </p>
 
       <spacer size="12"></spacer>
@@ -144,9 +110,9 @@
       </row>
       <!-- phone  -->
 
-      <spacer size="60"></spacer>
+      <spacer size="64"></spacer>
     </columns>
   </row>
 </container>
 
-{{> footer-protection-en}}
+{{> footer-protection-id}}

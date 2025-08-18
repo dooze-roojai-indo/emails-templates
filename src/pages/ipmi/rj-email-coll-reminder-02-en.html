@@ -49,7 +49,7 @@
 
         <p class="text-center">
           <strong>
-            Nomor Polis:
+            Policy Number:
           </strong>
         </p>
 
@@ -58,38 +58,6 @@
         <h4 class="text-center text-white">
           <strong>
             {PolicyNumber}
-          </strong>
-        </h4>
-
-        <spacer size="13"></spacer>
-
-        <p class="text-center">
-          <strong>
-            Jumlah yang harus dibayar:
-          </strong>
-        </p>
-
-        <spacer size="5"></spacer>
-
-        <h4 class="text-center text-white">
-          <strong>
-            {InstalmentAmount}
-          </strong>
-        </h4>
-
-        <spacer size="13"></spacer>
-
-        <p class="text-center">
-          <strong>
-            Tanggal jatuh tempo:
-          </strong>
-        </p>
-
-        <spacer size="5"></spacer>
-
-        <h4 class="text-center text-white">
-          <strong>
-            {PaymentDueDate}
           </strong>
         </h4>
 
@@ -140,7 +108,7 @@
 
       <!-- Scenario: Credit Card Template -->
       <p>
-        To ensure uninterrupted coverage, please make sure the credit card we have on file is still valid and has sufficient credit limit for your payment.
+        Please make sure the credit card we have on file is still valid and has sufficient credit limit for your payment. We will retry processing your payment in the next day or so.
       </p>
 
       <spacer size="42"></spacer>
@@ -171,12 +139,13 @@
 
       <p>
         Click the link below for detailed payment instructions:
-      </p>
+      
+        <br />
 
-      <spacer size="15"></spacer>
-            
-      <p class="text-center">
-        <a href="https://www.roojai.co.id/how-to-pay/" target="_blank">
+        <a
+          href="https://www.roojai.co.id/how-to-pay/"
+          target="_blank"
+        >
           https://www.roojai.co.id/how-to-pay/
         </a>
       </p>
@@ -185,18 +154,22 @@
       <!-- Scenario: Virtual Account Template -->
 
       <p>
-        Tim Contact Center kami siap membantu bila kamu membutuhkan bantuan!
+        Our Contact Center team is ready to assist if you need help or want to proceed!
       </p>
 
-      <spacer size="9"></spacer>
+      <spacer size="12"></spacer>
 
-      <p class="text-center">
-        <a href="tel:02150890822">
-          <strong class="font-size-20px">
-            Hubungi: 021 5089 0822
-          </strong>
-        </a>
-      </p>
+      <!-- phone -->
+      <row>
+        <columns small="12">
+          <center>
+            <button href="tel:02150890822" class="phone large radius" align="center">
+              021 5089 0822
+            </button>
+          </center>
+        </columns>
+      </row>
+      <!-- phone  -->
 
       <spacer size="17"></spacer>
       
@@ -213,4 +186,4 @@
   </row>
 </container>
 
-{{> footer-protection-id}}
+{{> footer-protection-en}}
